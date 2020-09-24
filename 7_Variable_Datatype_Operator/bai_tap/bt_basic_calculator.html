@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_basic_calculator</title>
+</head>
+<body>
+    <br>
+    <h1>CALCULATOR</h1>
+    <input type="text" id="number1">      <input type="text" id="number2">
+    <!-- ở tag input thì chỉ cần nhập loại text là được vì chỉ cần lấy giá trị truyền xuống dưới -->
+    <!-- tag id="biến" là để nhận giá trị từ ô người dùng nhập vào và chuyển xuống hàm để xử lý-->
+    <br>
+    <button type="button" onclick="calculator('+')">addition (+)</button>
+    <button type="button" onclick="calculator('-')">subtraction (-)</button>
+    <button type="button" onclick="calculator('*')">multiple (*)</button>
+    <button type="button" onclick="calculator('/')">division (/)</button>
+
+    <script>
+        let nb1= document.getElementById("number1") ;
+        let nb2= document.getElementById("number2") ;
+        let result= 0 ;
+        <!-- ở đây lệnh getElement không có để thêm value, và cũng không để parseInt mà xuống dưới mới dùng là vì
+             trước khi người dùng nhập dữ liệu vào 2 ô number1, và number2 thì máy phải chạy từ trên xuống dưới trước
+             một lần rồi mới hiện ra cho người dùng nhập. Nên nếu để value ở trên rồi dùng parseInt với value lúc
+             dùng getElemnt thì máy sẽ báo lỗi NaN= not a number-->
+        function calculator(cal) {
+
+            if (cal=== "+")     {   result= parseInt(nb1.value) + parseInt(nb2.value) ; }
+                else if (cal=== "-")     {   result= parseInt(nb1.value) - parseInt(nb2.value) ; }
+                else if (cal=== "*")     {   result= parseInt(nb1.value) * parseInt(nb2.value) ; }
+                else     {   result= parseInt(nb1.value) / nb2 ; }
+
+            alert(result) ;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_vari_data_oper</title>
+</head>
+<body>
+    <button type="button" onclick="average()">Tinh diem trung binh</button>
+    <br>    <br>
+    <button type="button" onclick="temprature()">Tinh temprature</button>
+    <br>    <br>
+    <button type="button" onclick="circle_area()">Dien tich hinh tron</button>
+    <br>    <br>
+    <button type="button" onclick="circle_perimeter()">Chu vi hinh tron</button>
+    <br>    <br>
+
+    <!-- ==================================================== -->
+    <!-- Hàm tính chu vi hình tròn -->
+    <script>
+        function circle_perimeter() {
+        const PI = 3.14159 ;
+        let duongkinh = prompt("Nhap duong kinh duong tron") ;
+        let dk_ = parseInt(duongkinh) ;
+
+        let perimeter = PI * dk_ ;
+        alert("Chu vi hinh tron la = " +perimeter) ;
+        }
+    </script>
+
+    <!-- ==================================================== -->
+    <!-- Hàm tính diện tích hình tròn -->
+    <script>
+        function circle_area() {
+        const PI = 3.14159 ;
+        var duongkinh= prompt("Nhap duong kinh duong tron") ;
+        var dk_= parseInt(duongkinh) ;
+
+        let dt_htron= PI* dk_ *dk_ /4 ;
+        alert("Dien tich hinh tron la = " +dt_htron) ;
+        }
+    </script>
+
+    <!-- ==================================================== -->
+    <!-- Hàm đổi độ Celsius thành Fahrenheit -->
+    <script>
+        function temprature() {
+            let do_C = prompt("Nhap nhiet do Celsius = ") ;
+            let nhiet_C = parseInt(do_C) ;
+
+            let do_F =nhiet_C*9/5 +32 ;
+            alert("Quy doi ra nhiet do Fahrenheit = " + do_F) ;
+        }
+    </script>
+
+    <!-- ==================================================== -->
+    <!-- Hàm tính trung bình điểm 3 môn Lý- Hóa - Sinh -->
+    <script>
+        function average() {
+            let diemLy = prompt("Nhap diem Ly = ") ;
+            let diemHoa = prompt("Nhap diem Hoa = ") ;
+            let diemSinh = prompt("Nhap diem Sinh = ") ;
+
+            let ly_ = parseInt(diemLy) ;
+            let hoa_ = parseInt(diemHoa) ;
+            let sinh_ = parseInt(diemSinh) ;
+
+            let diem_tb = ( ly_ + hoa_ + sinh_ )/3 ;
+
+            alert("diem tb 3 mon = " +diem_tb) ;
+        }
+    </script>
+    <!-- ==================================================== -->
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_convert_currency</title>
+</head>
+<body>
+    <table border="0">
+        <tr>
+            <th>Amount</th>
+            <th>From currency</th>
+            <th>To currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="number" id="number"></td>
+            <td><select id="from">
+                <option>usd </option>
+                <option>vnd </option>
+                </select>
+            </td>
+            <td><select id="to">
+                <option>vnd </option>
+                <option>usd </option>
+                </select>
+            </td>
+            <td><button type="button" onclick="convertCurrency()">convert</button></td>
+        </tr>
+    </table>
+
+    <script>
+        function convertCurrency() {
+            let number= document.getElementById("number").value ;
+            let fromCurrency= document.getElementById("from").value ;
+            let toCurrency= document.getElementById("to").value ;
+            let result = 0 ;
+
+            if (fromCurrency == "usd" && toCurrency == "vnd")   {   result= number * 23000 ; }
+            else if (fromCurrency == "vnd" && toCurrency == "usd" )   {   result= number /23000 ;  }
+            else {  result= number ;  }
+
+            alert(result) ;
+        }
+    </script>
+
+</body>
+</html>

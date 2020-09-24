@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_simple_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/table_simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_operator_3part.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_practice_IF_ELSE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_year_test_JS.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_acc_name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/baitap_form_survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/baitap_form_survey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/baitap_tao_form_don_gian_dangky.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/baitap_tao_form_don_gian_dangky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_year_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_year_test.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hndkoio627FTIz32fqR9nE9oma" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="thuchanh_simpleform.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/5.HTML form &amp; table/thuc hanh/thuchanh_simpleform.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.thuchanh_simpleform.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="" />
+      <created>1600650935643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600650935643</updated>
+      <workItem from="1600650938060" duration="45000" />
+      <workItem from="1600650995931" duration="1303000" />
+      <workItem from="1600659434471" duration="756000" />
+      <workItem from="1600660457036" duration="3580000" />
+      <workItem from="1600664083901" duration="151000" />
+      <workItem from="1600669646063" duration="10080000" />
+      <workItem from="1600680183883" duration="3383000" />
+      <workItem from="1600698481379" duration="48000" />
+      <workItem from="1600698544766" duration="606000" />
+      <workItem from="1600699567442" duration="58000" />
+      <workItem from="1600699844139" duration="40000" />
+      <workItem from="1600738878993" duration="50000" />
+      <workItem from="1600744806707" duration="513000" />
+      <workItem from="1600745619601" duration="1594000" />
+      <workItem from="1600755940868" duration="12827000" />
+      <workItem from="1600824630768" duration="804000" />
+      <workItem from="1600831879608" duration="39000" />
+      <workItem from="1600832761960" duration="3810000" />
+      <workItem from="1600836860506" duration="116000" />
+      <workItem from="1600842448469" duration="4324000" />
+      <workItem from="1600849940063" duration="3250000" />
+      <workItem from="1600853441592" duration="2471000" />
+      <workItem from="1600911181858" duration="177000" />
+      <workItem from="1600917207578" duration="78000" />
+      <workItem from="1600917309768" duration="998000" />
+      <workItem from="1600918636197" duration="2151000" />
+      <workItem from="1600920914616" duration="2541000" />
+      <workItem from="1600928584710" duration="2774000" />
+      <workItem from="1600932339937" duration="6706000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1600942166648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600942166648" />
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1600768801578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600768801578" />
+    <state width="1259" height="204" key="GridCell.Tab.0.center" timestamp="1600768801578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600768801578" />
+    <state width="1259" height="204" key="GridCell.Tab.0.left" timestamp="1600768801578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600768801578" />
+    <state width="1259" height="204" key="GridCell.Tab.0.right" timestamp="1600768801578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600768801578" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1600768801578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600768801578" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.2.bottom" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.2.center" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.2.left" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.2.right" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.3.bottom" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.3.center" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.3.left" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state width="1259" height="204" key="GridCell.Tab.3.right" timestamp="1600768801579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1600659556140">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600659556140" />
+    <state x="233" y="63" key="Vcs.Push.Dialog.v2" timestamp="1600942183393">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="63" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600942183393" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1600683218789">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600683218789" />
+  </component>
+</project>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cs_acc_name</title>
+</head>
+<style>  .tb {
+    border-collapse: collapse;
+    font-family: "Times New Roman";
+    width: max-content;
+    text-align: left;
+    font-size: 85%;
+    }
+</style>
+<body class="tb">
+<form>
+    <!-- THÔNG TIN CÁ NHÂN KHÁCH HÀNG ĐƯỢC NHÓM LẠI -->
+    <fieldset>
+        <legend>YOUR INFORMATION</legend>
+    <p>Your name</p>                <input type="text" name="name">
+    <p>Identify card number</p>     <input type="text" name="identify">
+    <p>Birth day</p>               <input type="date" name="birthday">      <!-- code chi tiet lai birthday-->
+    <p>Email</p>                   <input type="email" name="email">
+    <p>Your address</p>            <input type="text" name="address">
+    </fieldset>
+
+    <!-- THÔNG TIN LỰA CHỌN LOẠI VÀ DỊCH VỤ CỦA KHÁCH HÀNG -->
+    <fieldset>
+    <p>Class member</p>
+        <select>
+            <option>Diamond</option>
+            <option>Platinum</option>
+            <option>Gold</option>
+            <option>Silver</option>
+            <option>Member</option>
+        </select>
+    <p>Class room</p>
+        <select id="room">
+            <option>Villas</option>
+            <option>House</option>
+            <option>Room</option>
+        </select>
+    <p>Class service</p>
+        <select>
+            <option>Vip</option>
+            <option>Business</option>
+            <option>Normal</option>
+        </select>
+    </fieldset>
+
+    <!-- THÔNG TIN GIÁ CẢ DỊCH VỤ -->
+    <fieldset>
+    <p>Sales off</p>        <input type="text" id="saleof"> %
+        <pre class="tb">
+        Service list:
+            Villas = 500$ per day
+            House = 300$ per day
+            Room = 100$ per day
+        </pre>
+    </fieldset>
+    <fieldset>
+    <p>Book check in</p>    <input type="date" id="inDay">
+    <p>Book check out</p>    <input type="date" id="outDay">
+    </fieldset>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
+
+<script>
+    let saleof = parseInt(document.getElementById("saleof").value) ;
+    let inDay = parseInt(document.getElementById("inDay").value) ;
+    let outDay = parseInt(document.getElementById("outDay").value) ;
+    let room = document.getElementById("room").value ;
+
+
+    <!--
+    let mss = prompt("Loggin acc = ") ;
+    let mssg= (mss == "Employee")?
+        alert("Hello"): (mss=="Director")?  alert("Greeting"):
+            (mss=="No logging")?    alert("ok") :
+                alert("Wrong acc") ;
+    -->
+</script>
