@@ -2,63 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_giai_codegym/ChuyenDoiTienTe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_giai_codegym/may_tinh_basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/anh/nobita.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_3_sides_triangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_3_sides_triangle_Js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_Celcius_to_Farehein.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_Celcius_to_Farehein_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nestedJS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_2_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_3_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_4_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_5_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_bank_loan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_bank_loan_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_check_age.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_check_age_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_electric_order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_electric_order_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_first_degree_equation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_first_degree_equation_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_income_by_sales_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_income_sales.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_met_to_feet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_met_to_feet_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_phone_order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_phone_order_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_rectangle_area.htlm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_rectangle_area_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_right_angles_triangle_area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_right_angles_triangle_area_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_second_degree_equation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_second_degree_equation_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_square_area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_square_area_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_switch_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_switch_case_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_vat_income.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_vat_income_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_weight_heght.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/thuc_hanh/demo 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/thuc_hanh/th_keyboard_event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/thuc_hanh/th_mouse_even.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_Variable_Datatype_Operator/thuc_hanh/th_khaibao_sudung_bien.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/thuc_hanh/th_khaibao_sudung_bien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_Variable_Datatype_Operator/thuc_hanh/th_sudung_toantu_JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/thuc_hanh/th_sudung_toantu_JS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_acc_name.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_acc_name.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +108,7 @@
       <workItem from="1601200253299" duration="467000" />
       <workItem from="1601212845867" duration="6468000" />
       <workItem from="1601264059662" duration="5000" />
+      <workItem from="1601264477975" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>
