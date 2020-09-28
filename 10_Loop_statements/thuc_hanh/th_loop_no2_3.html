@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>th_loop_no2_3</title>
+</head>
+<body>
+    <script>
+        let row1 = prompt("Input number row") ;
+        let col1 = prompt("Input number column") ;
+        let sout = "<table border='1' width='400' cellspacing='0' cellpadding='3'>" ;
+        let i = 1 ;
+        let j = 1 ;
+        while ( i <= row1 ){
+            sout = sout + "<tr>" ;
+            while ( j <= col1 ) {
+                sout = sout + "<td>" + i*j + "</td>" ;
+                j++ ;
+            }
+            j = 1 ;
+            i++ ;
+            sout = sout + "</tr>"
+        }
+        sout = sout + "</table>" ;
+        document.write(sout) ;
+    </script>
+</body>
+</html>
+
+
+
+<!--let row1 = prompt("Input number row") ;-->
+<!--let col1 = prompt("Input number column") ;-->
+<!--let sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>"-->
+<!--    for (let i = 1 ; i <= col1 ; i++) {-->
+<!--    sout = sout + "<tr>";-->
+<!--        for (let j = 1 ; j <= row1 ; j++) {-->
+<!--        sout = sout + "<td>" + i * j + "</td>";-->
+<!--        }-->
+<!--        sout = sout + "</tr>";-->
+<!--    }-->
+<!--    sout = sout + "</table>";-->
+<!--document.write(sout) ;-->
+<!--// ý nghĩa của biến sout là in ra màn hình cấu trúc <table border=....> rồi td với nội dung bên trong-->
