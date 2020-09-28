@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_vat_income</title>
+</head>
+<body>
+    <table border = "1">
+        <tr>
+            <td>Total your income per month</td>
+            <td><input id="number1" type="text"></td>
+            <td>triệu đồng ( 1 )</td>
+        </tr>
+        <tr>
+            <td>Exempt amount</td>
+            <td><input id="number2" type="text"> </td>
+            <td>triệu đồng( 2 )</td>
+        </tr>
+        <tr>
+            <td>Tax relief</td>
+            <td><input id="number3" type="text"> </td>
+            <td>triệu đồng ( 3 )</td>
+        </tr>
+        <tr>
+            <td>Income vat (%)</td>
+            <td id="vatRate"> </td>
+            <td>% ( 4 )</td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="vat_income()"> Click to cal</button> </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Vat order</td>
+            <td id="result1"> </td>
+            <td>triệu đồng</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input id="result2" type="text"> </td>
+            <td></td>
+        </tr>
+    </table>
+
+<script src="bt_vat_income_JS.js"></script>
+</body>
+</html>

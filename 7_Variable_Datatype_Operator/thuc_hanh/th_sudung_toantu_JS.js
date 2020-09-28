@@ -1,10 +1,10 @@
-var input_w = prompt("Enter Width value = ") ;
-var input_h = prompt("Enter Height value = ") ;
+let input_w = prompt("Enter Width value = ") ;
+let input_h = prompt("Enter Height value = ") ;
 
-var width_ = parseInt(input_w) ;
-var height_ = parseInt(input_h) ;
+let width_ = parseInt(input_w) ;
+let height_ = parseInt(input_h) ;
 
-var area = width_ * height_ ;
+let area = width_ * height_ ;
 
 document.write("Rectangle area = " + area) ;
 

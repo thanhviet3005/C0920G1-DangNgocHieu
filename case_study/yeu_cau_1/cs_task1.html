@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cs_task_1</title>
+</head>
+<body>
+<form>
+    <table align="center">
+        <tr>
+            <th colspan="2">INFORMATION CUSTOMER</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input id="nameC" type="text" name="customerInfor" ></td>
+        </tr>
+        <tr>
+            <td>Identify Card</td>
+            <td><input id="identifyC" type="text" name="customerInfor"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input id="emailC" type="text" name="customerInfor"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input id="addressC" type="text" name="customerInfor"></td>
+        </tr>
+        <tr>
+            <td>Class customer</td>
+            <td><select id="classC">
+                <option>Diamond</option>
+                <option>Platinum</option>
+                <option>Gold</option>
+                <option>Silver</option>
+                <option>Member</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Goods type</td>
+            <td id="typeC"><select >
+                <option>Vilas</option>
+                <option>House</option>
+                <option>Room</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Level</td>
+            <td><select id="levelC">
+                <option>Vip</option>
+                <option>Business</option>
+                <option>Normal</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td><input id="quantityC" type="text" name="customerSelect"></td>
+        </tr>
+        <tr>
+            <td>Number rent days</td>
+            <td><input id="rentDayC" type="text" name="customerSelect"></td>
+        </tr>
+        <tr>
+            <td>Unit price list</td>
+            <td>Vilas = 500$ per one day</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>House = 300$ per one day</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Room = 100$ per one day</td>
+        </tr>
+        <tr>
+            <td>% sale off</td>
+            <td><input id = "saleOffC" type="text"></td>
+        </tr>
+        <tr>
+            <td><input id ="submitC" type="submit" name="customerInforAndSelection" value="Submit"></td>
+            <td></td>
+        </tr>
+
+    </table>
+</form>
+
+    <table>
+        <tr>
+            <th>Show Information & Selection Customer</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td id="number1"></td>
+        </tr>
+        <tr>
+            <td>Identify Card</td>
+            <td id="number2"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td id="number3"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td id="number4"></td>
+        </tr>
+        <tr>
+            <td>Class Customer</td>
+            <td id="number5"></td>
+        </tr>
+        <tr>
+            <td>Goods type</td>
+            <td id="number6"></td>
+        </tr>
+        <tr>
+            <td>Level</td>
+            <td id="number7"></td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td id="number8"></td>
+        </tr>
+        <tr>
+            <td>Number rent days</td>
+            <td id="number9"></td>
+        </tr>
+        <tr>
+            <td>% sale off</td>
+            <td id="number10"></td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td id="result1"></td>
+        </tr>
+    </table>
+<script>
+    function displayInfCus(){
+        let nameCus = document.getElementById("id").value ;
+        let identifyCus = document.getElementById("identifyC").value ;
+        let emailCus = document.getElementById("emailC").value ;
+        let addressCus = document.getElementById("addressC").value ;
+        let classCus = document.getElementById("classC").value ;
+        let typeCus = document.getElementById("typeC").value ;
+        let levelCus = document.getElementById("levelC").value ;
+        let quantityCus = document.getElementById("quantityC").value ;
+        let rentDayCus = document.getElementById("rentDayC").value ;
+        let saleOffCus = document.getElementById("saleoffC").value ;
+        let t1 ;
+        let totalOr ;
+
+        if (typeCus= "Vilas")
+        {t1 = 500 ; }
+        else if (typeCus= "House")
+        {t1 = 300 ; }
+        else
+            {t1 = 100 ;}
+        
+        totalOr= t1 * quantityCus * rentDayCus * ( 1- saleOffCus/100) ;
+
+        document.getElementById("number1").innerHTML = nameCus ;  //id="number1"
+        document.getElementById("number2").innerHTML = identifyCus ;  //id="number2"
+        document.getElementById("number3").innerHTML = emailCus ;  //id="number3"
+        document.getElementById("number4").innerHTML = addressCus ; //id ="number4"
+        document.getElementById("number5").innerHTML = classCus ; //id ="number5"
+        document.getElementById("number6").innerHTML = typeCus ; //id ="number6"
+        document.getElementById("number7").innerHTML = levelCus ; //id ="number7"
+        document.getElementById("number8").innerHTML = quantityCus ; //id ="number8"
+        document.getElementById("number9").innerHTML = rentDayCus ; //id ="number9"
+        document.getElementById("number10").innerHTML = saleOffCus ; //id ="number10"
+        document.getElementById("result1").innerHTML = totalOr ; // id = "result1"
+    }
+</script>
+</body>
+</html>
+

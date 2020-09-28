@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>th_keyboard_event</title>
+</head>
+<body onload="doReady()">
+
+    <img id= "nobita" src="../anh/nobita.png" style="position: absolute; left:0 ; top:0;" height="100" width="80" alt="hi"/>
+// ở đây là chỉ khai báo left và top nên ở dưới chỉ có style.top và left nên bấm phím + với - 5 là do vậy
+    <script>
+        function upArrowPress() {
+        let element = document.getElementById("nobita") ;
+            element.style.top = parseInt(element.style.top) - 5 + 'px' ;
+        }
+        // biến element có giá trị là ảnh, lấy từ id= nobita;
+        //      element.style.top là để chỉnh lại cách phía trên vị trí cũ của ảnh là lấy vị trí cũ đổi
+        //      số nguyên -5 + 'px là thành chuỗi lại thì cái style mới nhận được giá trị'. Nhớ là xuống thì -5
+        <!-- Xây dựng hàm xử lý khi nhấn phím mũi tên xuống-->
+        function downArrowPress() {
+            let element = document.getElementById("nobita") ;
+            element.style.top = parseInt(element.style.top) + 5 + 'px' ;
+        }
+        <!-- Xây dựng hàm xử lý khi nhấn phím sang trái-->
+        function leftArrowPress() {
+            let element = document.getElementById("nobita") ;
+            element.style.left = parseInt(element.style.left) - 5 + 'px' ;
+        }
+        <!-- Xây dựng hàm xử lý khi nhấn phím sang phải-->
+        function rightArrowPress() {
+            let element = document.getElementById("nobita") ;
+            element.style.left = parseInt(element.style.left) + 5 + 'px' ;
+        }
+        <!-- Xây dựng hàm nhận các phím-->
+        function moveSelection(evt) {
+            switch(evt.keyCode) {
+                case 37: leftArrowPress() ;     break;
+                case 39: rightArrowPress() ;     break;
+                case 38: upArrowPress() ;     break;
+                case 40: downArrowPress() ;     break;
+            }
+         }
+        //  các số 37, 38, 39, 40 là các phím mũi tên trên bàn phím
+        // evt.keyCode là khai báo là biến evt chỉ nhận các giá trị tương ứng với bàn phím
+        function doReady() {
+            window.addEventListener('keydown', moveSelection) ;
+        }
+    </script>
+</body>
+</html>

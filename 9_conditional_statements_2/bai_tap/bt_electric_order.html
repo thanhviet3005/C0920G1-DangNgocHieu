@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_electric_order</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Your number used</td>
+            <td><input id="numE" type="text"> </td>
+            <td>kWh</td>
+        </tr>
+        <tr>
+            <td>Level 1: Unit price per kWh</td>
+            <td><input id="level1" type="text"></td>
+            <td>đ/kWh</td>
+        </tr>
+        <tr>
+            <td>Level 2: Unit price per kWh</td>
+            <td><input id="level2" type="text"></td>
+            <td>đ/kWh</td>
+        </tr>
+        <tr>
+            <td>Level 3: Unit price per kWh</td>
+            <td><input id="level3" type="text"></td>
+            <td>đ/kWh</td>
+        </tr>
+        <tr>
+            <td> Number kWh for level 1</td>
+            <td><input id="num1" type="text"></td>
+            <td>kWh</td>
+        </tr>
+        <tr>
+            <td> Number kWh for level 2</td>
+            <td><input id="num2" type="text"></td>
+            <td>kWh</td>
+        </tr>
+        <tr>
+            <td>Please input VAT =</td>
+            <td><input id="vat" type="text"></td>
+            <td>%</td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="electrOrder()">Your order</button> </td>
+            <td id="result1"></td>
+            <td>vnđ </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="result2"></td>
+            <td>vnđ </td>
+        </tr>
+    </table>
+
+    <script src="bt_electric_order_JS.js"></script>
+</body>
+</html>

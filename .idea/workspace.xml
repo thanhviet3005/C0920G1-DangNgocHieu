@@ -2,18 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_simple_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/table_simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_operator_3part.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_practice_IF_ELSE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_year_test_JS.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_acc_name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_giai_codegym/ChuyenDoiTienTe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_giai_codegym/may_tinh_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/anh/nobita.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_3_sides_triangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_3_sides_triangle_Js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_Celcius_to_Farehein.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_Celcius_to_Farehein_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nestedJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_2_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_3_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_4_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_IF_nested_5_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_bank_loan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_bank_loan_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_check_age.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_check_age_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_electric_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_electric_order_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_first_degree_equation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_first_degree_equation_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_income_by_sales_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_income_sales.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_met_to_feet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_met_to_feet_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_phone_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_phone_order_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_rectangle_area.htlm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_rectangle_area_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_right_angles_triangle_area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_right_angles_triangle_area_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_second_degree_equation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_second_degree_equation_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_square_area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_square_area_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_switch_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_switch_case_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_vat_income.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_vat_income_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/bt_weight_heght.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/thuc_hanh/demo 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/thuc_hanh/th_keyboard_event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/thuc_hanh/th_mouse_even.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/baitap_form_survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/baitap_form_survey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/baitap_tao_form_don_gian_dangky.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/baitap_tao_form_don_gian_dangky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_year_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/8_conditional_statements/thuc_hanh/th_year_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Variable_Datatype_Operator/thuc_hanh/th_khaibao_sudung_bien.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/thuc_hanh/th_khaibao_sudung_bien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Variable_Datatype_Operator/thuc_hanh/th_sudung_toantu_JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/thuc_hanh/th_sudung_toantu_JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_acc_name.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_acc_name.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +68,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,10 +90,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="thuchanh_simpleform.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/5.HTML form &amp; table/thuc hanh/thuchanh_simpleform.html" useBuiltInWebServerPort="true">
@@ -98,7 +146,39 @@
       <workItem from="1600920914616" duration="2541000" />
       <workItem from="1600928584710" duration="2774000" />
       <workItem from="1600932339937" duration="6706000" />
+      <workItem from="1600942018714" duration="384000" />
+      <workItem from="1600996462040" duration="66000" />
+      <workItem from="1600997756202" duration="3742000" />
+      <workItem from="1601006524294" duration="3275000" />
+      <workItem from="1601009889487" duration="114000" />
+      <workItem from="1601015411987" duration="18000" />
+      <workItem from="1601015559125" duration="10558000" />
+      <workItem from="1601041161381" duration="618000" />
+      <workItem from="1601041799144" duration="4742000" />
+      <workItem from="1601103262898" duration="15366000" />
+      <workItem from="1601126892067" duration="5137000" />
+      <workItem from="1601183686395" duration="10896000" />
+      <workItem from="1601196588274" duration="2031000" />
+      <workItem from="1601199745845" duration="280000" />
+      <workItem from="1601200253299" duration="467000" />
+      <workItem from="1601212845867" duration="6468000" />
+      <workItem from="1601264059662" duration="5000" />
     </task>
+    <task id="LOCAL-00001" summary="Hieu commit edit git 2">
+      <created>1600942072223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600942072223</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hieu commit edit git 2">
+      <created>1600942167312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600942167312</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,12 +186,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Hieu commit edit git 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hieu commit edit git 2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="133" y="0" key="#Inspections" timestamp="1601108154298">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="133" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1601108154298" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601025013877">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1601025013877" />
     <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1600942166648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600942166648" />
+    <state x="371" y="39" key="FileChooserDialogImpl" timestamp="1601200283200">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="39" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601200283200" />
     <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1600768801578">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -176,17 +270,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1600768801579" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1600659556140">
+    <state x="67" y="0" key="SettingsEditor" timestamp="1601041612472">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600659556140" />
+    <state x="67" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601041612472" />
     <state x="233" y="63" key="Vcs.Push.Dialog.v2" timestamp="1600942183393">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="63" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600942183393" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1600683218789">
+    <state x="213" y="147" key="run.anything.popup" timestamp="1601216867475">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600683218789" />
+    <state x="213" y="147" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1601216867475" />
+    <state x="303" y="1" width="840" height="678" key="search.everywhere.popup" timestamp="1601214804167">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="840" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1601214804167" />
   </component>
 </project>
