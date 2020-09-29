@@ -3,142 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <title>cs_task_1</title>
+    <link rel="stylesheet" href="cs_task_1_CSS.css" type="text/css">
 </head>
 <body>
 <form>
-    <table align="center">
-        <tr>
-            <th colspan="2">INFORMATION CUSTOMER</th>
-        </tr>
-        <tr>
-            <td>Name</td>
-            <td><input id="nameC" type="text" name="customerInfor" ></td>
-        </tr>
-        <tr>
-            <td>Identify Card</td>
-            <td><input id="identifyC" type="text" name="customerInfor"></td>
-        </tr>
-        <tr>
-            <td>Email</td>
-            <td><input id="emailC" type="text" name="customerInfor"></td>
-        </tr>
-        <tr>
-            <td>Address</td>
-            <td><input id="addressC" type="text" name="customerInfor"></td>
-        </tr>
-        <tr>
-            <td>Class customer</td>
-            <td><select id="classC">
-                <option>Diamond</option>
-                <option>Platinum</option>
-                <option>Gold</option>
-                <option>Silver</option>
-                <option>Member</option>
+    <!-- ==== DƯỚI ĐÂY LÀ BẢNG NHẬP==== -->
+            <table align="center">
+            <tr>
+                <th colspan="2">INFORMATION CUSTOMER</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input id="nameC" type="text" name="customerInfor" ></td>
+            </tr>
+            <tr>
+                <td>Identify Card</td>
+                <td><input id="identifyC" type="text" name="customerInfor"></td>
+            </tr>
+                <tr>
+                    <td>Birth date</td>
+                    <td><input id="birthDateC" type="date" name="customerInfor"></td>
+                </tr>
+            <tr>
+                <td>Email</td>
+                <td><input id="emailC" type="email" name="customerInfor"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input id="addressC" type="text" name="customerInfor"></td>
+            </tr>
+            <tr>
+                <td>Class customer</td>
+                <td><select id="classC">
+                    <option>Diamond</option>
+                    <option>Platinum</option>
+                    <option>Gold</option>
+                    <option>Silver</option>
+                    <option>Member</option>
                 </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Goods type</td>
-            <td id="typeC"><select >
-                <option>Vilas</option>
-                <option>House</option>
-                <option>Room</option>
-            </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Level</td>
-            <td><select id="levelC">
-                <option>Vip</option>
-                <option>Business</option>
-                <option>Normal</option>
-            </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Quantity</td>
-            <td><input id="quantityC" type="text" name="customerSelect"></td>
-        </tr>
-        <tr>
-            <td>Number rent days</td>
-            <td><input id="rentDayC" type="text" name="customerSelect"></td>
-        </tr>
-        <tr>
-            <td>Unit price list</td>
-            <td>Vilas = 500$ per one day</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>House = 300$ per one day</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Room = 100$ per one day</td>
-        </tr>
-        <tr>
-            <td>% sale off</td>
-            <td><input id = "saleOffC" type="text"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input id ="submitC" type="submit" name="customerInforAndSelection" value="Submit">
-                <button type="button" onclick="displayInfCus()">Review</button>
-            </td>
-        </tr>
+                </td>
+            </tr>
+            <tr>
+                <td>Goods type</td>
+                <td><select  id="typeC">
+                    <option>Vilas</option>
+                    <option>House</option>
+                    <option>Room</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Level</td>
+                <td><select id="levelC">
+                    <option>Vip</option>
+                    <option>Business</option>
+                    <option>Normal</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Quantity</td>
+                <td><input id="quantityC" type="text" name="customerSelect"></td>
+            </tr>
+            <tr>
+                <td>Number rent days</td>
+                <td><input id="rentDayC" type="text" name="customerSelect"></td>
+            </tr>
+            <tr>
+                <td>Unit price list</td>
+                <td>Vilas = 500$ per one day</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>House = 300$ per one day</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Room = 100$ per one day</td>
+            </tr>
+            <tr>
+                <td>% sale off</td>
+                <td><input id = "saleOffC" type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input id ="submitC" type="reset" name="customerInforAndSelection" value="Reset">
+                    <button type="button" onclick="displayInfCus()">Show your information</button>
+                </td>
+            </tr>
+        </table>
+<br>
+    <br>
+    <!-- ==== DƯỚI ĐÂY LÀ BẢNG XUẤT==== -->
 
-    </table>
+            <table align="center">
+                <tr>
+                    <th>Reviewing Information</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td id="outNameC"></td>
+                </tr>
+                <tr>
+                    <td>Identify Card</td>
+                    <td id="outIdentifyC"></td>
+                </tr>
+                <tr>
+                    <td>Birth Date</td>
+                    <td id="outBirthDateC"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td id="outEmailC"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td id="outAddressC"></td>
+                </tr>
+                <tr>
+                    <td>Class Customer</td>
+                    <td id="outClassC"></td>
+                </tr>
+                <tr>
+                    <td>Goods type</td>
+                    <td id="outTypeC"></td>
+                </tr>
+                <tr>
+                    <td>Level</td>
+                    <td id="outLevelC"></td>
+                </tr>
+                <tr>
+                    <td>Quantity</td>
+                    <td id="outQuantityC"></td>
+                </tr>
+                <tr>
+                    <td>Number rent days</td>
+                    <td id="outRentDayC"></td>
+                </tr>
+                <tr>
+                    <td>% sale off</td>
+                    <td id="outSaleOffC"></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td id="result1">$</td>
+                </tr>
+            </table>
 
-
-    <table>
-        <tr>
-            <th>Show Information & Selection Customer</th>
-            <th></th>
-        </tr>
-        <tr>
-            <td>Name</td>
-            <td id="number1"></td>
-        </tr>
-        <tr>
-            <td>Identify Card</td>
-            <td id="number2"></td>
-        </tr>
-        <tr>
-            <td>Email</td>
-            <td id="number3"></td>
-        </tr>
-        <tr>
-            <td>Address</td>
-            <td id="number4"></td>
-        </tr>
-        <tr>
-            <td>Class Customer</td>
-            <td id="number5"></td>
-        </tr>
-        <tr>
-            <td>Goods type</td>
-            <td id="number6"></td>
-        </tr>
-        <tr>
-            <td>Level</td>
-            <td id="number7"></td>
-        </tr>
-        <tr>
-            <td>Quantity</td>
-            <td id="number8"></td>
-        </tr>
-        <tr>
-            <td>Number rent days</td>
-            <td id="number9"></td>
-        </tr>
-        <tr>
-            <td>% sale off</td>
-            <td id="number10"></td>
-        </tr>
-        <tr>
-            <td>Total</td>
-            <td id="result1"></td>
-        </tr>
-    </table>
 </form>
 <script src = "cs_task_1_JS.js"></script>
 </body>

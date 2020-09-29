@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+    width: 100%;
+}
+form{
+    margin: 0 auto;
+    background-color: gray;
+    width: 500px;
+}

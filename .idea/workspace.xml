@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="Hieu commit edit git 2">
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_01_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_01_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_01_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_01_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_01_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_01_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_01_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_02_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_02_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_02_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_02_3_b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_02_3_c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_02_3_d.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_loop_02_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_multiplication_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_so_nguyen_to.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,6 +139,11 @@
       <workItem from="1601345272240" duration="9644000" />
       <workItem from="1601355173107" duration="68000" />
       <workItem from="1601360498297" duration="3074000" />
+      <workItem from="1601363963074" duration="5552000" />
+      <workItem from="1601369696016" duration="68000" />
+      <workItem from="1601371278004" duration="799000" />
+      <workItem from="1601373515057" duration="318000" />
+      <workItem from="1601383794014" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>
@@ -269,10 +259,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="63" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600942183393" />
-    <state x="213" y="147" key="run.anything.popup" timestamp="1601342161547">
+    <state x="213" y="147" key="run.anything.popup" timestamp="1601365839392">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="213" y="147" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1601342161547" />
+    <state x="213" y="147" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1601365839392" />
     <state x="303" y="1" width="840" height="678" key="search.everywhere.popup" timestamp="1601273969608">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
