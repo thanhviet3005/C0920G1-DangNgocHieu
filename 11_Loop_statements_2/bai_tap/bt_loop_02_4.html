@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_loop_02_4</title>
+</head>
+<body>
+    <script>
+        let i, j, x;
+        let row1 , col1 ;
+        do {
+            row1 = parseInt(prompt("Input row number (>=3)")) ;
+            col1 = parseInt(prompt("Input col number")) ;
+        }while (isNaN(row1, col1) && row1 >= 3 && col1 >= 3)
+
+        for (i = 1; i <= row1; i++){
+            document.write("*");
+            for (j = 1; j< col1 -2 && (i == 1 || i == row1) ; j++){ // vong lap bien chay dong dau va cuoi
+                document.write("*") ;
+            }
+
+            for (x = 1; x < col1 - 2 && i !== 1 && i !== row1 ; x++){ // vong lap bien chay nhung dong giua
+                document.write("&nbsp&nbsp");
+            }
+            document.write("*");
+            document.write("<br>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_loop_02_3_d</title>
+</head>
+<body>
+    <script>
+        let i, j, x ;
+        let t1 ;
+        do{
+            t1 = parseInt(prompt("Input row number")) ;
+           } while (isNaN(t1)) ;
+
+        for (i = 1; i <= t1 ; i++){
+            for (x = 1; x < i ; x++){
+                document.write("&nbsp&nbsp");
+            }
+            for (j = t1 ; j >= i ; j--){
+                document.write("*")
+            }
+            document.write("<br>") ;
+        }
+    </script>
+</body>
+</html>

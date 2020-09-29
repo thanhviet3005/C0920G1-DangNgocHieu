@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_loop_01_2</title>
+</head>
+<body>
+    <script>
+        let tempR ;
+        do {
+            tempR = parseInt(prompt("Input environment temprature"));
+        } while (isNaN(tempR))
+        if (tempR < 20 && tempR >-273) {
+            alert ("Increase temprature") ;
+        }
+        else if (tempR > 100){
+            alert ("Decrease temprature") ;
+        }
+        else
+            (alert ("It's ok"))
+    </script>
+</body>
+</html>

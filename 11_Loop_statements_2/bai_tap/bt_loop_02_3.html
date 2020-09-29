@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_loop_02_3</title>
+</head>
+<body>
+    <script>
+        let i, j ;
+        let t1 ;
+        do {
+            t1= parseInt(prompt("Input row number")) ;
+        } while (isNaN(t1))
+        // Ở đoạn này, là j<=i để mỗi lần xuống 1 hàng, i tăng lên 1 thì số lần lặp của biến j tăng
+        // lên 1, nên những chữ "*" in ra là đúng như hình vẽ.
+        for (i = 1 ; i <= t1 ; i++){
+            for (j = 1; j <= i ; j++){
+                document.write("*") ;
+            }
+            document.write("<br>") ;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_loop_02_2</title>
+</head>
+<body>
+    <script>
+        //bai tap tinh giai thua mot so nguyen duong
+        let n1 ;
+        let count ;
+        let ans1 = 1 ;
+        do {
+            n1 = parseInt(prompt("Input max number")) ;
+        } while (isNaN(n1));
+        for (count = 1; count <= n1 ; count++){
+            ans1= ans1 * count ;
+        }
+        document.write("Answer = " + ans1) ;
+    </script>
+</body>
+</html>
