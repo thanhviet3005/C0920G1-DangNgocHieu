@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cs_request2_task_1_2_3</title>
+</head>
+<body>
+    <script>
+        let nameCus =  "Thanh Tuấn";
+        let identifyCus =  "2015666530";
+        let birthCus =  "20-05-2020";
+        let emailCus =  "xuankhanh2091@gmail.com";
+        let addressCus =  "Quảng Ngải";
+        let classCus =  "Gold";
+        let typeCus =  "House";  // Vilas
+        let levelCus =  "Bussiness";
+        let quantityCus =  "2";
+        let rentDayCus =  "10";
+        let saleOffCus =  "10%";
+
+        let choose = parseInt(prompt("Choose one selection"+ "\n"+
+            "1. Show information"+ "\n"+
+            "2. Edit information"+ "\n"+
+            "3. Show the amount to pay after discount")) ;
+
+        switch (choose) {
+            case 1:
+                alert("Name = " + nameCus + "\n" +
+                      "Identify = " + identifyCus + "\n" +
+                      "Birth date = " + birthCus + "\n" +
+                      "Email = " + emailCus + "\n" +
+                      "Address = " + addressCus + "\n" +
+                      "Class customer = " + classCus + "\n" +
+                      "Goods type = " + typeCus + "\n" +
+                      "Level = " + levelCus + "\n" +
+                      "Quantity = " + quantityCus + "\n" +
+                      "Rent Days = " + rentDayCus + "\n" +
+                      "Sale off = " + saleOffCus + "\n"
+                ) ;
+                break ;
+// ở đoạn dưới case 2 là khi xuất ra màn hình để chọn giá trị muốn sửa, nhưng vì có biến ở trong mỗi dòng
+                //nên nhìn giống như hiển thị thông tin ra vậy.
+            case 2: 
+                let chooseEdit = parseInt(prompt("1. Name = " + nameCus + "\n" +
+                    "2. Identify = " + identifyCus + "\n" +
+                    "3. Birth date = " + birthCus + "\n" +
+                    "4. Email = " + emailCus + "\n" +
+                    "5. Address = " + addressCus + "\n" +
+                    "6. Class customer = " + classCus + "\n" +
+                    "7. Goods type = " + typeCus + "\n" +
+                    "8. Level = " + levelCus + "\n" +
+                    "9. Quantity = " + quantityCus + "\n" +
+                    "10. Rent Days = " + rentDayCus + "\n" +
+                    "11. Sale off = " + saleOffCus + "\n")) ;
+
+                switch (chooseEdit) {
+                    case 1: nameCus = prompt("Enter a name") ; break ; 
+                    case 2: identifyCus = prompt("Enter a identify") ; break ;
+                    case 3: birthCus = prompt("Enter a birth date") ; break ;
+                    case 4: emailCus = prompt("Enter a email address") ; break ;
+                    case 5: addressCus = prompt("Enter a your live address") ; break ;
+                    case 6: classCus = prompt("Enter a class customer") ; break ;
+                    case 7: typeCus = prompt("Enter goods type") ; break ;
+                    case 8: levelCus = prompt("Enter goods level") ; break ;
+                    case 9: quantityCus = prompt("Enter quantity") ; break ;
+                    case 10: rentDayCus = prompt("Enter rent days") ; break ;
+                    case 11: saleOffCus = prompt("Enter sale off") ; break ;
+                    default: alert("Failes") ; break ;
+                };
+                break ;
+            case 3:{
+                let serPrice ;
+                switch(typeCus) {
+                    case 'Villas': serPrice = 500 ; break ;
+                    case 'House': serPrice = 300 ; break ;
+                    case 'Room': serPrice = 100 ; break ;
+                }
+                switch(addressCus){
+                    case 'Da Nang': saleOffCus = saleOffCus + 20 ; break ;
+                    case 'Hue': saleOffCus = saleOffCus +  10 ; break ;
+                    case 'Quang Nam': saleOffCus = saleOffCus +  5 ; break ;
+                }
+                if (rentDayCus> 7 ){ saleOffCus = saleOffCus + 30 ;                 }
+                else if (rentDayCus >= 5){ saleOffCus = saleOffCus + 20 ;                 }
+                else if (rentDayCus >= 2){ saleOffCus = saleOffCus + 10 ;                 }
+                else {}
+                
+            }
+
+            default: {alert("Sự lựa chọn của bạn không có trong trình đơn"); break ;}
+        }
+    </script>
+</body>
+</html>

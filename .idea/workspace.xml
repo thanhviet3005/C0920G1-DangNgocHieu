@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="Hieu commit edit git 2">
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_2/cs_request2_task_1_2_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.bt_loop_02_3_d.html">
     <configuration name="bt_loop_01_5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module 1/11_Loop_statements_2/bai_tap/bt_loop_01_5.html" useBuiltInWebServerPort="true">
@@ -143,7 +141,8 @@
       <workItem from="1601369696016" duration="68000" />
       <workItem from="1601371278004" duration="799000" />
       <workItem from="1601373515057" duration="318000" />
-      <workItem from="1601383794014" duration="628000" />
+      <workItem from="1601383794014" duration="6452000" />
+      <workItem from="1601428023441" duration="1719000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>
@@ -251,10 +250,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="203" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1601355114151" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1601276429321">
+    <state x="0" y="0" key="SettingsEditor" timestamp="1601428140672">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601276429321" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601428140672" />
     <state x="233" y="63" key="Vcs.Push.Dialog.v2" timestamp="1600942183393">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
