@@ -6,8 +6,24 @@
 </head>
 <body>
     <script>
-        let number = prompt("Input your number") ;
-        let N ;
+        // let number = parseInt(prompt("Input your number")) ;// nhap vao nho hon 100 la duoc
+        let numA = 21 ;
+        let N = 2 ;
+        let count = 0 ;
+        // phần dưới là để check xem số nhập vào có phải là số nguyên tố không
+        for (; N< numA/2 ; N++){
+            let t1 = numA % N == 0 ;
+            if (t1) { // alert ("Luc nay N = " + N) ;
+                break ; }
+            }
+        // ở vòng for ở trên , nếu numA chia hết cho số N thì thoát vòng lặp bằng
+        // break vì biết là chỉ cần chia hết cho một số nào đó ko phải là 1 và numA là thoát được rồi.
+        // alert ("ra khoi for N = " + N) ;
+        if ( N < numA/2) { alert (numA + "is NOT a primative number");        }
+        else {
+            alert (numA + "is a primative number");
+        }
+//=======================================================
         
     </script>
 </body>

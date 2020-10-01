@@ -16,7 +16,7 @@
         let levelCus =  "Bussiness";
         let quantityCus =  "2";
         let rentDayCus =  "10";
-        let saleOffCus =  "10%";
+        let saleOffCus = 0 ;
 
         let choose = parseInt(prompt("Choose one selection"+ "\n"+
             "1. Show information"+ "\n"+
@@ -69,7 +69,7 @@
                 };
                 break ;
             case 3:{
-                let serPrice ;
+                let serPrice , totalOr ;
                 switch(typeCus) {
                     case 'Villas': serPrice = 500 ; break ;
                     case 'House': serPrice = 300 ; break ;
@@ -79,12 +79,25 @@
                     case 'Da Nang': saleOffCus = saleOffCus + 20 ; break ;
                     case 'Hue': saleOffCus = saleOffCus +  10 ; break ;
                     case 'Quang Nam': saleOffCus = saleOffCus +  5 ; break ;
+                    default:
+                        break ;
                 }
-                if (rentDayCus> 7 ){ saleOffCus = saleOffCus + 30 ;                 }
+                if (rentDayCus > 7 ){ saleOffCus = saleOffCus + 30 ;                 }
                 else if (rentDayCus >= 5){ saleOffCus = saleOffCus + 20 ;                 }
                 else if (rentDayCus >= 2){ saleOffCus = saleOffCus + 10 ;                 }
                 else {}
-                
+
+                switch(classCus) {
+                    case 'Diamond':  saleOffCus = saleOffCus + 15 ; break ;
+                    case 'Plantinum':  saleOffCus = saleOffCus + 10 ; break ;
+                    case 'Gold':  saleOffCus = saleOffCus + 5 ; break ;
+                    case 'Silver':  saleOffCus = saleOffCus + 2 ; break ;
+                    // case 'Member': break ;
+                    //     default:  break ;
+                }
+                totalOr = serPrice * quantityCus * rentDayCus - saleOffCus ;
+                alert("Total your order = " + totalOr + " $") ;
+                break;
             }
 
             default: {alert("Sự lựa chọn của bạn không có trong trình đơn"); break ;}

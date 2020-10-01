@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>th_create_&_practice_array</title>
+</head>
+<body>
+
+<h2>SAMPLE SCREEN</h2>
+    <input type="text" id="txtvalue">
+    <button type="button" onclick="add_element_to_array()">Add</button>
+    <button type="button" onclick="display_array()">Display</button>
+    <div id="result"></div>
+    <script>
+        let x = 0;
+        let array = Array();
+        // Hàm để thêm các phần tử vào mảng, x tăng lên rồi giá trị vừa nhập ở ô id bị xóa đi để chạy lại vòng lặp
+        function add_element_to_array() {
+            array[x] = document.getElementById("txtvalue").value;
+            alert("Element = " + array[x] +"\n"
+                + "Added a index = " + x);
+            x++;
+            document.getElementById("txtvalue").value = "";
+        }
+        function display_array() {
+            let e = "<hr/>" ;
+            for (let i = 0; i < array.length; i++) {
+                e = e + "Element" + i + "=" + array[i] + "<br/>" ; // tức là dấu gạch ngang phân cách + phần tử + xuống dòng
+            }
+            document.getElementById("result").innerHTML = e ;
+        }
+
+    </script>
+</body>
+</html>

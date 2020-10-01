@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>th_find_value_in_array</title>
+</head>
+<body>
+    <script>
+        let x = [-3, 5, 1, 3, 5, 10] ;
+        let value= prompt("Input your value ") ;
+        document.writeln(x) ;
+        let i = 0 ;
+        for (let i = 0 ; i <= x.length-1 ; i++ ){
+            if (value == x[i]) {
+                document.writeln("<br>") ;
+                document.writeln("At index =" + i ) ;
+                document.writeln("value =" + x[i] ) ;
+            }
+        }
+    </script>
+</body>
+</html>

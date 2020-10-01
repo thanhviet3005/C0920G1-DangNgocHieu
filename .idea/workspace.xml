@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="Hieu commit edit git 2">
-      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_2/cs_request2_task_1_2_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/thuc_hanh/th_caro_game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/thuc_hanh/th_create_&amp;_practice_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/thuc_hanh/th_find_value_in_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/thuc_hanh/th_max_value_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/thuc_hanh/th_reverse_element.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_so_nguyen_to.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_2/cs_request2_task_1_2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_2/cs_request2_task_1_2_3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +149,11 @@
       <workItem from="1601373515057" duration="318000" />
       <workItem from="1601383794014" duration="6452000" />
       <workItem from="1601428023441" duration="1719000" />
+      <workItem from="1601439151667" duration="2295000" />
+      <workItem from="1601446817977" duration="7275000" />
+      <workItem from="1601458495965" duration="2302000" />
+      <workItem from="1601482578351" duration="23000" />
+      <workItem from="1601483105629" duration="3080000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>
