@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_array_2_practice_07</title>
+</head>
+<body>
+    <script>
+// Bài 7- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần
+// tử số nguyên V. Chương trình kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc
+// mảng đã cho xoá V khỏi mảng (Bản chất việc xoá ở đây tức là dịch phần tử ở bên
+// phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng)
+
+        let x = [3, -6, 15, 9, 5, -10, -1] ;
+        let v1 = -1 ;
+        let t1 = 0 ;
+        console.log(x) ;
+        // test xem co phan tu = v1 trong mang x ko, va dua ve cuoi mang
+        for (let i = 0 ; i < x.length-1 ; i++ ){  // do thieu phan tu x[x.length-1] nen phai them truong
+            if ( x[i] == v1) {                  // x[x.length-1 == v1 o duoi
+                t1 = t1 + 1 ;
+                m1 = x[i+1] ;
+                     x[i+1] = x[i] ;
+                              x[i] = m1 ;
+            }
+        }
+        if (t1 > 0 || x[x.length-1] == v1 ) { // bao "co" phan tu giong nhu vay hoac la phan tu cuoi
+            console.log("Yes") ;                // bang v1 thi bao "co" roi xoa phan tu cuoi di.
+            console.log(x) ;
+            x.pop() ;
+        }
+        else { console.log("No") ; }
+        console.log(x) ;
+
+        // xac dinh dia chi cua x[i] = v1, doi x[i] qua phia ben phai, roi xoa di
+        // for (let m1 = 0 , i = 0 ; i < x.length-1 ; i++ ) {
+        //     if (x[i] == v1 && t1 > 0 ) {
+        //         m1 = x[i+1] ;
+        //              x[i+1] = x[i] ;
+        //                       x[i] = m1 ;
+        //     }
+        // }
+        // console.log(x) ;
+        // x.pop() ;
+        // console.log(x) ;
+
+    </script>
+</body>
+</html>

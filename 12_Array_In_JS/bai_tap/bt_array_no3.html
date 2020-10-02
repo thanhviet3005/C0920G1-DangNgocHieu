@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>br_array_no3</title>
+</head>
+<body>
+    <script>
+        let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        let LOWER = 'abcdefghijklmnopqrstuvwxyz';
+        let x = ['P', 'Y', 't', 'm'] ;
+        let ans=[] ;
+        for (let i = 0 ; i< x.length ; i++){
+            if (UPPER.indexOf(x[i]) !== -1 ){
+                ans.push(x[i].toLowerCase()) ;
+            }else if (LOWER.indexOf(x[i] !== -1) ) {
+                ans.push(x[i].toUpperCase()) ;
+            }else {
+                ans.push(x[i]) ;
+            }
+        }
+        alert (ans);
+        alert (ans.join(""));
+
+    </script>
+
+
+<script>
+    // let lenAr = parseInt(prompt("Input array length = "));
+    // for (let i = 0 ; i < lenAr ; i++ ){
+    //     x[i]= prompt("Input array length = ");
+</script>
+</body>
+</html>

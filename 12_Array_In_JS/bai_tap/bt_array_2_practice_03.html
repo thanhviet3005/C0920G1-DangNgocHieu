@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_array_2_practice_03</title>
+</head>
+<body>
+    <script>
+        let x = [2, 1, 30, 20, 16] ;
+        let max  = x[0] ;
+        let t = 0;
+        for (let i = 0 ; i < x.length ; i++){               // vòng này tìm max
+            if (x[i] > max)   { max = x[i] ; }
+            t= t + x[i];
+        }
+        console.log('Max value = '+ max ) ;
+        console.log('Array average value = '+ t/x.length ) ;
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_array_2_practice_04</title>
+</head>
+<body>
+    <script>
+        let x = new Array();
+        let lengthX ;
+        do{
+            lengthX=parseInt(prompt("Input length array = ")) ;
+        }while (isNaN(lengthX)) ;
+        for (let i = 0; i< lengthX ; i++){
+            x[i] = parseInt(prompt("Input element"));   // tao cac phan tu cho mang
+        }
+        let t = x.reverse() ;
+        console.log("Reverse array = " + t) ;
+
+    </script>
+</body>
+</html>

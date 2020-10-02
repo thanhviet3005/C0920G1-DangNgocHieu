@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_array_no2</title>
+</head>
+<body>
+<script>
+    let x = new Array();
+    let lenX = 4;
+    let t1 = [];
+    for (let i = 0; i < lenX ; i++){
+        x[i] = parseInt(prompt("Input integer element"))
+    }
+    alert (x);
+    for (let i = 0, j = 1; i <= lenX-1, j <= lenX-1 ; i++, j++){
+        if (x[i] % 2 == 0 && x[j] % 2 == 0){
+            t1.push('-', x[i]);
+        }
+        else {t1.push(x[i]) ;
+        }
+    }
+    alert(t1.join("")) ;
+
+
+    // x[0] = parseInt(prompt("Input integer element ")); // ở phía dưới chưa có x[0]
+    // t1.push(x[0]);
+    // // do {
+    // //     lenX = parseInt(prompt("Input length string number "))
+    // // } while (isNaN(lenX)) ;
+    // for (let i = 1; i <= lenX - 1; i++) {
+    //     x[i] = parseInt(prompt("Input integer element "));
+    //     if ((x[i - 1] % 2 == 0) && (x[i] % 2 == 0)) {
+    //         t1.push('-', x[i]);
+    //     } else {
+    //         t1.push(x[i]);
+    //     }
+    // }
+    // alert(t1.join(""));
+</script>
+
+<script>// Dưới đây là đoạn mã chạy ko dùng đến mảng
+// let t1 = '' , a ;
+// let num1 = parseInt(prompt(" Input quantity your number = ")) ;// chiều dài chuỗi số
+// for (let i = 1 ; i <= num1 ; i++) {
+//     a = parseInt(prompt(" Input number = ")) ; // nhập số lần lượt vào
+//     if (a % 2 !== 0  ) { t1 = t1 + a ;  }   // số lẻ thì không có dấu ngang
+//     else    { t1 = t1 + '-' + a ;  } // số chẵn thì nối nhau bằng dấu ngang
+// }
+// alert (t1) ;
+</script>
+
+
+</body>
+</html>
