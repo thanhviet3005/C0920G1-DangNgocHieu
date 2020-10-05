@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_convert_feet_meter</title>
+</head>
+<body>
+<!--<p> <input id= "demoF" type= "text" placeholder= "input FEET number"> foot </p>-->
+<!--<p><button type= "button" onclick= "feetToMeter()">Click to cal</button> </p>-->
+<!--<p id="answerM"> </p>-->
+
+<!--<br><br>-->
+
+<!--<p> <input id= "demoM" type= "text" placeholder= "input Meter number"> meter </p>-->
+<!--<p><button type= "button" onclick= "meterToFeet()">Click to cal</button> </p>-->
+<!--<p id="answerF"> foot </p>-->
+
+<script>
+    let feet = 120 ;
+    let meter = 36 ;
+    console.log(feetToMeter(feet) + ' meter') ;
+    console.log(meterToFeet(meter) + ' feet') ;
+
+    function feetToMeter(f1) {
+        let numF = parseFloat(f1) ;
+        let outMeter = 0.305*numF ;
+        return outMeter ;
+
+    }
+    function meterToFeet(m1) {
+        let numM = parseFloat(m1) ;
+        let outFeet = numM/0.305 ;
+        return outFeet ;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_array_2_2_practice_1</title>
+</head>
+<body>
+<script>
+
+//Bài 1: Viết chương trình khởi tạo mảng 2 chiều, gồm một bộ các phần tử có sẵn,
+//      + in ra các phần tử trong mảng. Chú ý: Sử dụng vòng lặp for lồng nhau
+//     let a = new Array();
+//         a[0]= [ 3, 5, 7 ] ;
+//         a[1]= [ 4, 6, 8 ] ;
+//         a[2]= [ 9, -2, 15 ] ;
+    let a = [
+        [ 3, 5, 9 ] ,
+        [ 4, 6, 15 ] ,
+        [ 8, 2, 14 ]
+    ]
+
+    for (let i = 0; i < a.length; i++) {
+        console.log("row " + i) ;
+        for ( let j=0 ; j < a[i].length ; j++) {
+            console.log(a[i][j] );
+        }
+    }
+</script>
+</body>
+</html>

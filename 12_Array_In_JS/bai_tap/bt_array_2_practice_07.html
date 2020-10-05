@@ -11,8 +11,8 @@
 // mảng đã cho xoá V khỏi mảng (Bản chất việc xoá ở đây tức là dịch phần tử ở bên
 // phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng)
 
-        let x = [3, -6, 15, 9, 5, -10, -1] ;
-        let v1 = -1 ;
+        let x = [3, -6, 15, 9, 9, -10, -1] ;
+        let v1 = 9 ;
         let t1 = 0 ;
         console.log(x) ;
         // test xem co phan tu = v1 trong mang x ko, va dua ve cuoi mang
@@ -20,8 +20,8 @@
             if ( x[i] == v1) {                  // x[x.length-1 == v1 o duoi
                 t1 = t1 + 1 ;
                 m1 = x[i+1] ;
-                     x[i+1] = x[i] ;
-                              x[i] = m1 ;
+                x[i+1] = x[i] ;
+                x[i] = m1 ;
             }
         }
         if (t1 > 0 || x[x.length-1] == v1 ) { // bao "co" phan tu giong nhu vay hoac la phan tu cuoi

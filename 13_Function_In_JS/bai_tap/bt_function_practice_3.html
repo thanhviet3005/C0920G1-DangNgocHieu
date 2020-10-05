@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_3</title>
+</head>
+<body>
+<p> <input id= "demo1" type="text" > First number </p>
+<br>
+<p> <input id= "demo2" type="text" onchange="calculate()"> Second number</p>
+<br>
+<p><span id="ans"></span></p>
+
+    <script>
+    // Bài 3: + Tạo hàm nhận vào hai tham số.
+    //     + Nếu giá trị của tham số thứ nhất lớn hơn tham số thứ hai, hiển thị hộp thoại thông báo
+    //      cho người dùng.
+    //     + Nếu giá trị của tham số thứ nhất nhỏ hơn hoặc bằng tham
+    //      số thứ hai, trả về tổng của hai tham số.
+    //==============================================
+    function calculate(){
+        let a1 = document.getElementById("demo1").value ;
+        let b1 = document.getElementById("demo2").value ;
+        document.getElementById("ans").innerHTML = 'Answer' + plusab(a1, b1) ;
+    }
+
+        function plusab(first, second) {
+            first = parseFloat(first) ;
+            second = parseFloat(second) ;
+            if(first > second) {
+                alert("First > second, please re-input " ) ;
+            }
+            else{
+                return first + second;
+            }
+        }
+    </script>
+</body>
+</html>

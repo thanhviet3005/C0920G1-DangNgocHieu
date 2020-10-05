@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_check_prime_number_ver2</title>
+</head>
+<body>
+    <script>
+        let a = [3, -6, 15, 7, 5, -10, -1] ;
+        for (let i= 0; i < a.length; i++){
+            isPrime(a[i]);
+        }
+//=============================================================
+        function isPrime(numX) {
+            let numA= parseInt(numX) ;
+            if (numA > 1) {
+                let t1 = 0 ;
+                for (let count = 2 ; count < 1+ numA/2 ; count++){
+                    if (numA % count == 0) {
+                        t1 = t1 + 1;
+                        return console.log("NOT ") ;
+                    }
+                }
+
+                 return console.log("Yes, " + numA) ;
+            }else {console.log("NOT")}
+        }
+    </script>
+
+</body>
+</html>

@@ -2,22 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="Hieu commit edit git 2">
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_aray_no2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_07.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_08.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_09.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_no3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_07_ver2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_check_prime_number.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_check_prime_number_ver2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_convert_feet_meter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/thuc_hanh/th_function_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/thuc_hanh/th_function_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/thuc_hanh/th_function_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_so_nguyen_to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_07.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_07.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_08.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_09.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_09.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +47,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1hndkoio627FTIz32fqR9nE9oma" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,6 +73,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_aray_no2.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.bt_aray_no2.html">
@@ -174,6 +193,19 @@
       <workItem from="1601533376106" duration="11598000" />
       <workItem from="1601559292175" duration="5497000" />
       <workItem from="1601566927662" duration="4831000" />
+      <workItem from="1601612289949" duration="2356000" />
+      <workItem from="1601619331237" duration="9686000" />
+      <workItem from="1601629108536" duration="56000" />
+      <workItem from="1601629266750" duration="1710000" />
+      <workItem from="1601648143927" duration="3179000" />
+      <workItem from="1601693766388" duration="3652000" />
+      <workItem from="1601697957600" duration="7762000" />
+      <workItem from="1601706199319" duration="6339000" />
+      <workItem from="1601729428191" duration="7636000" />
+      <workItem from="1601803847569" duration="915000" />
+      <workItem from="1601826791216" duration="3832000" />
+      <workItem from="1601830849513" duration="100000" />
+      <workItem from="1601831154401" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>
@@ -209,6 +241,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1601527746226" />
+    <state x="389" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601612632834">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1601612632834" />
     <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1601360519112">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -293,9 +329,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="213" y="147" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1601542969348" />
-    <state x="303" y="1" width="840" height="678" key="search.everywhere.popup" timestamp="1601273969608">
+    <state x="303" y="1" width="840" height="678" key="search.everywhere.popup" timestamp="1601804095094">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="840" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1601273969608" />
+    <state x="303" y="1" width="840" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1601804095094" />
   </component>
 </project>

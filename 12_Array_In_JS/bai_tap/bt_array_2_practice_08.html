@@ -10,17 +10,17 @@
 //     Chương trình sắp xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.
 
         let x = [3, -6, 15, 9, 5, -10, -1] ;
-        console.log (x);    // cho 2 vong lap long nhau la cho
+        console.log(x);    // cho 2 vong lap long nhau la cho
         for (let i = 0 ; i < x.length ; i++ ){
             for (let j = 0 ; j < x.length ; j++) {
                 if (x[j] < x[j+1] ) {
                     let t = x[j+1] ;
-                            x[j+1] = x[j] ;
-                                     x[j] = t ;
+                        x[j+1] = x[j] ;
+                        x[j] = t ;
                 }
             }
         }
-        console.log (x);
+        console.log(x);
 
     </script>
 </body>

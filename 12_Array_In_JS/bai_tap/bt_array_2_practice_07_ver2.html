@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_array_2_practice_07_ver2</title>
+</head>
+<body>
+<script>
+    // Bài 7- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo
+    // phần tử số nguyên V. Chương trình kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc
+    // mảng đã cho xoá V khỏi mảng (Bản chất việc xoá ở đây tức là dịch
+    // phần tử ở bên phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng)
+
+    let x = [9, 4, 9, 6, 9, -3, 9] ;
+    let v1 = 9 ;
+    let t2 = x ;
+    console.log(t2) ;
+    // 2 vong lap for la don nhung phan tu giong v1 qua phia cuoi mang
+    for (let j = 0; j < x.length; j++){
+        for (let i = 0 ; i < x.length-1 ; i++ ){
+            if ( x[i] == v1) {
+                // t1 = t1 + 1 ;
+                m1 = x[i+1] ;
+                x[i+1] = x[i] ;
+                x[i] = m1 ;
+            }
+        }
+    }
+    // vong lap for o duoi la de cho nhung phan tu giong v1 o phia cuoi  = 0
+    for (let y = 0; y < x.length; y++) {
+        if (x[y] == v1) {
+            x[y] = 0 ;
+        }
+    }
+    console.log(x) ;
+</script>
+
+</body>
+</html>
