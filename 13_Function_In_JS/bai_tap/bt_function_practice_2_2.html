@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_2_2</title>
+</head>
+<body>
+<p><input id = "demo1" type="text" onchange="getValue1()" placeholder="Input diameter"> = </p>
+<p>Circle perimeter =<span id="demo2"></span></p>
+<p>Circle area = <span id = "demo3"></span></p>
+<script>
+    //Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn.
+    //  + Gọi hàm vừa xây dựng được
+function getValue1() {
+    let diameter = document.getElementById("demo1").value ;
+    document.getElementById("demo2").innerHTML = getCirclePerimeter(diameter) ;
+    document.getElementById("demo3").innerHTML = getCircleArea(diameter) ;
+}
+function getCirclePerimeter(a) {
+    return a * Math.PI ;
+}
+function getCircleArea(a) {
+    return a*a*Math.PI/4 ;
+
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_2_7</title>
+</head>
+<body>
+<p><button type="button" onclick="getValue1()">Click to star</button> </p>
+<script>
+
+    //Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó _
+    function getValue1() {
+        let a = new Array() ;
+        a[0] = parseInt(prompt("Input 1="));
+        a[1] = parseInt(prompt("Input 2="));
+        alert (a);
+        swapNum(a) ;
+        alert (a) ;
+    }
+    function swapNum(arr){
+        let t1 = arr[0] ;
+        arr[0] = arr[1] ;
+        arr[1] = t1 ;
+    }
+
+</script>
+</body>
+</html>

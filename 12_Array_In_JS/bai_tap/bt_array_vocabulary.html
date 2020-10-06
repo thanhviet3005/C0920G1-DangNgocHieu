@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_array_vocabulary</title>
+</head>
+<body>
+<table border="0">
+    <tr>
+        <td>Input</td>
+        <td><input id="demo1" type="text" onchange="transEV()" placeholder="English"></td>
+    </tr>
+    <tr>
+        <td>Output</td>
+        <td><span id="demo2"></span>   </td>
+    </tr>
+</table>
+<script>
+    // Hướng dẫn
+    // Bước 1: Tạo một trang web với một form đơn giản cho phép người dùng nhập từ cần tìm kiếm.
+
+    // Bước 2: Viết mã Javascript
+
+    // Tạo 2 mảng có độ dài bằng nhau để lưu trữ danh sách các từ.
+    // Mảng 1 lưu trữ các từ tiếng Anh, mảng 2 lưu trữ các từ tiếng Việt tương ứng.
+    // Khi tìm kiếm, tìm vị trí của từ tiếng Anh trong mảng 1.
+    // Nếu tìm thấy thì hiển thị từ tiếng Việt ở cùng vị trí trong mảng 2.
+    // Nếu không tìm thấy thì hiển thị thông báo không tìm thấy.
+
+    function transEV(){
+        let x = ["hello", "goodbye", "book", "city"] ;
+        let y = ["Xin chào", "Tạm biệt", "Quyển sách", "Thành phố"] ;
+        let engWord = document.getElementById("demo1").value ;
+        let t1 = x.indexOf(engWord, 0); // tim index cua tu tieng anh trong mang x
+        console.log(t1) ;
+        if (t1 !== -1) {
+            document.getElementById("demo2").innerHTML = y[t1] ; // vi tri tu tieng viet tuong ung trong mang y
+        }else {
+            document.getElementById("demo2").innerHTML = 'Not found' ;
+        }
+    }
+</script>
+</body>
+</html>

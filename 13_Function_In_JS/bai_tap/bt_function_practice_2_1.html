@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_2_1.html</title>
+</head>
+<body>
+<p><input id = "demo1" type="text" onchange="getValue1()"> = <span id="demo2"></span></p>
+
+<script>
+    //Bài 1: Viết hàm tính bình phương của một số bất kỳ được đưa vào.
+    // Gọi hàm vừa xây dựng được.
+
+function getValue1() {
+    let x1 = document.getElementById("demo1").value;
+    document.getElementById("demo2").innerHTML= getPow(x1);
+}
+function getPow(a){
+    a = parseFloat(a) ;
+    return a*a ;
+}
+</script>
+</body>
+</html>

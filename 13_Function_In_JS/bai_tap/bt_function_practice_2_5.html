@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_2_5</title>
+</head>
+<body>
+<p><input id="demo1" type="text" onchange="getValue1()"></p>
+<p>Min number = <span id="demo2"> </span> </p>
+<script>
+    // Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ,
+    // trả về số nguyên có giá trị nhỏ nhất.
+function getValue1() {
+    let x = new Array() ;
+    x = document.getElementById("demo1").value.split(',') ; // cac phan tu nhap vao phai la number integer
+    console.log(x) ;
+    document.getElementById("demo2").innerHTML= getMin(x) ;
+}
+function getMin(a) {
+    let min1 = parseInt(a[0]);
+    for (let i = 0; i < a.length; i++) {
+        if (min1 > parseInt(a[i])) {
+            min1 = a[i];
+        }
+    }
+    return min1
+}
+
+
+</script>
+</body>
+</html>

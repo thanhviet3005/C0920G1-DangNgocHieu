@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_so_nguyen_to_redo</title>
+</head>
+<body>
+
+<script>
+    // let number = parseInt(prompt("Input your number")) ;// nhap vao nho hon 100 la duoc
+    let numA = 11 ;
+    let N ;
+    let count= 0 ;
+    //check xem số nhập vào chỉ cần chia hết cho một số nào đó ko phải là 1 và numA là thoát được rồi.
+    for (N = 2; N <= 1 + numA/2 ; N++){
+        let t1 = numA % N == 0 ;
+        if (t1) { break ; }
+    }
+    // alert ("ra khoi for N = " + N) ; // test xem N co đúng không
+
+    if ( N < numA/2)    { document.writeln(numA + "= FALSE ");        }
+    else    { document.writeln("TRUE = " + numA + '<br>');       }
+
+    // N <= 71 vi toi day la chac chan da du 20 so nguyen to
+    // khi N lon hon nua thi
+    document.writeln("TRUE = " + '2' + '<br>')
+    for (N = 3 ; N < numA && N <= 71 ; N++){
+        for (count = 2 ; count <= (N/2) + 1 ; count++){
+            if (N % count == 0){ break;  }
+        }
+        // vi khi toi count = N/2+1 ma ko chia het thi da la so nguyen to roi
+        // xuong duoi them dieu kien >N/2 thi in ra la duoc roi
+        if (count > N/2 )  {
+            document.writeln("TRUE = " + N + "<br>");
+        }
+    }
+
+    </script>
+</body>
+</html>

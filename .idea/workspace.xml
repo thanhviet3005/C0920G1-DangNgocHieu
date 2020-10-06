@@ -2,34 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="Hieu commit edit git 2">
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_2_practice_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_07_ver2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_check_prime_number.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_check_prime_number_ver2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_convert_feet_meter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/thuc_hanh/th_function_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/thuc_hanh/th_function_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/thuc_hanh/th_function_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_so_nguyen_to_redo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_vocabulary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_function_practice_2_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_tap/bt_basic_calculator_redo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Loop_statements_2/bai_tap/bt_so_nguyen_to.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_07.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_07.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_08.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_09.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_Array_In_JS/bai_tap/bt_array_2_practice_09.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_tap/bt_basic_calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_tap/bt_basic_calculator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +195,10 @@
       <workItem from="1601826791216" duration="3832000" />
       <workItem from="1601830849513" duration="100000" />
       <workItem from="1601831154401" duration="108000" />
+      <workItem from="1601861363458" duration="11941000" />
+      <workItem from="1601879642459" duration="13367000" />
+      <workItem from="1601906224699" duration="46000" />
+      <workItem from="1601908396786" duration="2121000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>
@@ -325,10 +318,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="63" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600942183393" />
-    <state x="213" y="147" key="run.anything.popup" timestamp="1601542969348">
+    <state x="213" y="147" key="run.anything.popup" timestamp="1601909627267">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="213" y="147" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1601542969348" />
+    <state x="213" y="147" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1601909627267" />
     <state x="303" y="1" width="840" height="678" key="search.everywhere.popup" timestamp="1601804095094">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

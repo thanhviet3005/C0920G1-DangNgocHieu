@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_2_9</title>
+</head>
+<body>
+<p><button type="button" onclick="getValue1()">Click to star</button> </p>
+<script>
+    //Bài 9: Viết hàm truyền vào một mảng ký tự, và một ký tự bất kỳ,
+    // + Kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không.
+    // + Nếu có trả về số lần xuất hiện của ký tự đó, nếu không trả về -1.
+    function getValue1() {
+        let x = new Array(), t1;
+        x = prompt("Input char array = ").split('_');
+        t1 = prompt("Input ONE char = ");
+        console.log(x);
+        console.log(t1);
+        checkChar(x, t1) ;
+    }
+
+    function checkChar(a, b){
+        let t2 = 0 ;
+        for (let i = 0; i < a.length; i++ ){
+            if (a[i] == b) { t2 = t2 + 1; }
+        }
+        if (t2 > 0) {
+            return console.log('Yes, number times = ' + t2)
+        } else {
+            return console.log('Not times = -1' )
+        }
+    }
+
+</script>
+</body>
+</html>

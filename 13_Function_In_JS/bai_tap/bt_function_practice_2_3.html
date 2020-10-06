@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_2_3</title>
+</head>
+<body>
+<p><input id = "demo1" type="text" onchange="getValue1()"> = <span id="demo2"></span></p>
+<script>
+    //Bài 3: Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào.
+    // Gọi hàm vừa xây dựng được _
+    function getValue1() {
+        let x1 ;
+        do{
+            alert("Input integer number > 0")
+            x1 = parseInt(document.getElementById("demo1").value);
+        }while (x1 <= 0) ;
+        document.getElementById("demo2").innerHTML= getFactorial(x1);
+    }
+    function getFactorial(a) {
+        let t1 = 1;
+        for (let i = 1 ; i <= a ; i++){
+            t1 = t1*i ;
+        }
+        return t1 ;
+    }
+
+</script>
+</body>
+</html>

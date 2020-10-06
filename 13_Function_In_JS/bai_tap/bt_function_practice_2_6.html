@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_2_6</title>
+</head>
+<body>
+<p><input id = "demo1" type="text" onchange="getValue1()"> </p>
+<p id="demo2"> </p>
+<script>
+    //Bài 6: Viết hàm nhận vào một số,
+    //  + kiểm tra xem nếu số đưa vào có phải là nguyên dương không.
+    //  + Nếu là nguyên dương trả về true, ngược lại trả về false.
+
+function getValue1() {
+    let x = document.getElementById("demo1").value ;
+    document.getElementById("demo2").innerHTML = checkNum(x) ;
+}
+function checkNum(a) {
+    a = parseInt(a) ;
+    if (a > 0) { return 'TRUE'     }
+    else { return 'FALSE' }
+}
+</script>
+</body>
+</html>

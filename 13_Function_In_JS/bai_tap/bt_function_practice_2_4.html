@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_function_practice_2_4</title>
+</head>
+<body>
+<p><input id = "demo1" type="text" onchange="getValue1()"> = <span id="demo2"></span></p>
+<script>
+    //    Bài 4: Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không.
+    //          Nếu là ký tự số hàm trả về true, ngược lại trả về false
+
+    function getValue1(){
+        x = document.getElementById("demo1").value ;
+        document.getElementById("demo2").innerHTML = checkWord(x) ;
+    }
+    function checkWord(a) {
+        return !isNaN(a)
+    }
+</script>
+</body>
+</html>
