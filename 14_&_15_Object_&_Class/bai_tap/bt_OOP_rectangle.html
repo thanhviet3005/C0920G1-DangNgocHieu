@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_OOP_rectangle</title>
+</head>
+<body>
+<!--
+Viết một lớp các đối tượng hình chữ nhật lấy tên là Rectangle, mỗi hình chữ nhật đều
+có những đặc tính sau:
++ Có thông số chiều dài (int).
++ Có thông số chiều rộng (int).
++ Có tính năng tính diện tích.
++ Có tính năng tính chu vi.
++ Có tính năng hiển thị trực quan hình chữ nhật bằng cách vẽ lên canvas
+Sử dụng lớp Rectangle vừa định nghĩa để viết một chương trình JavaScript  với kịch bản như sau:
+-->
+<canvas id = 'demo1' width = '600px' height=" 600px"></canvas>
+<br>
+<canvas id = 'demo2' width = '600px' height=" 600px"></canvas>
+<br>
+
+<script>
+    class Rectangle{
+        constructor(length, wide) {
+            this.length = length ;
+            this.wide = wide ;
+        }
+        getLength(){ // trả về chiều dài
+            return this.length ;
+        }
+        getWide(){ // trả về thông số
+            return this.wide ;
+        }
+        getArea(){  // trả về diện tích
+            return this.length * this.wide ;
+        }
+        getPerimeter(){ // trả về chu vi
+            return 2*( this.length + this.wide ) ;
+        }
+        setDimension(length, wide) { // đặt lại chiều dài, chiều rộng của đối tượng
+            this.length = length ;
+            this.wide = wide ;
+        }
+    }
+    let drawRect = new Rectangle(400, 200) ;
+    // document.writeln(drawRect) ;  //  hiện ra trong console.log, ko hiện ra trong html
+    document.writeln('Length = ' + drawRect.getLength()+ '<br>') ;
+    document.writeln('Wide = ' + drawRect.getWide() + '<br>') ;
+    document.writeln('Area = ' + drawRect.getArea() +'<br>') ;
+    document.writeln('Perimeter = ' + drawRect.getPerimeter() + '<br>') ;
+
+    let canvas1 = document.getElementById('demo1') ;
+    let t1 = canvas1.getContext('2d') ;
+    t1.fillStyle = 'LightGrey';
+    t1.fillRect(0, 0, drawRect.getLength(), drawRect.getWide()) ;
+
+    // Đặt lại kích thước của đối tượng
+    drawRect.setDimension(600, 300) ;
+    document.writeln('Length = ' + drawRect.getLength()+ '<br>') ;
+    document.writeln('Wide = ' + drawRect.getWide() + '<br>') ;
+    document.writeln('Area = ' + drawRect.getArea() +'<br>') ;
+    document.writeln('Perimeter = ' + drawRect.getPerimeter() + '<br>') ;
+
+    // Vẽ lại rồi in ra hcn + diện tích  + chu vi
+    let canvas2 = document.getElementById('demo2') ;
+    let t2= canvas2.getContext('2d') ;
+    t2.fillStyle = 'LightGreen';
+    t2.fillRect(0, 0, drawRect.getLength(), drawRect.getWide()) ;
+
+</script>
+</body>
+</html>

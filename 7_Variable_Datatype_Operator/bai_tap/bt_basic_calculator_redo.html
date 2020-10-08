@@ -12,21 +12,63 @@
         <td colspan="2"><input id= "num2" type="text" placeholder="Number 2"> </td>
     </tr>
     <tr>
-        <td><button id= "addition" type="button" onclick="addButton()"> Add + </button> </td>
-        <td><button id= "subtraction" type="button" onclick=""> Minus - </button> </td>
-        <td><button id= "multiplication" type="button" onclick=""> Multiple * </button> </td>
-        <td><button id= "division" type="button" onclick=""> Division / </button> </td>
+        <td><button id= "addition" type="button" onclick="calculate('+')"> Add + </button> </td>
+        <td><button id= "subtraction" type="button" onclick="calculate('-')"> Minus - </button> </td>
+        <td><button id= "multiplication" type="button" onclick="calculate('*')"> Multiple * </button> </td>
+        <td><button id= "division" type="button" onclick="calculate('/')"> Division / </button> </td>
     </tr>
     <tr>
         <td>Answer = <span id="result"></span></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
 </table>
-    <script>
+<script>
+    function calculate(cal) {
+        let x = parseFloat(document.getElementById("num1").value) ;
+        let y = parseFloat(document.getElementById("num2").value) ;
+        let t = document.getElementById('result') ;
+        switch (cal){
+            case '+' : t.innerHTML = x + y ; break ;
+            case '-' : t.innerHTML = x - y ; break ;
+            case '*' : t.innerHTML = x * y ; break ;
+            // khi chia la phai xet truong hop y = 0 ;
+            case '/' :
+                if (y !== 0) {
+                    t.innerHTML= x / y ;
+                }else {
+                    t.innerHTML= "FALSE" ;
+                } ; break ;
+                default : t.innerHTML = "Wrong input" ; break ;
+        }
+    }
+</script>
+<!--
     function addButton() {
         let x = parseFloat(document.getElementById("num1").value) ;
         let y = parseFloat(document.getElementById("num2").value) ;
         document.getElementById("result").innerHTML= x + y ;
     }
-    </script>
+    function minusButton() {
+        let x = parseFloat(document.getElementById("num1").value) ;
+        let y = parseFloat(document.getElementById("num2").value) ;
+        document.getElementById("result").innerHTML= x - y ;
+    }
+    function multiButton() {
+        let x = parseFloat(document.getElementById("num1").value) ;
+        let y = parseFloat(document.getElementById("num2").value) ;
+        document.getElementById("result").innerHTML= x * y ;
+    }
+    function divisionButton() {
+        let x = parseFloat(document.getElementById("num1").value) ;
+        let y = parseFloat(document.getElementById("num2").value) ;
+        if (y !== 0) {
+            document.getElementById("result").innerHTML= x / y ;
+        }else {
+            document.getElementById("result").innerHTML= "FALSE" ;
+        }
+    }
+-->
 </body>
 </html>

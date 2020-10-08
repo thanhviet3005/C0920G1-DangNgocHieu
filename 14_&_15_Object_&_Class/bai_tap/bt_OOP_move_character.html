@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bt_OOP_move_character</title>
+</head>
+<body>
+<img id="imgHero" style="position: absolute; left: 0px; top: 0px">
+<script>
+    class Hero {
+        constructor(srcImg, speed, left, top) {
+            this.srcImg = srcImg;
+            this.speed = speed;
+            this.left = left;
+            this.top = top;
+        }
+
+        displayHero() {
+            let hero = document.getElementById("imgHero"); // bien lay anh tu id=imgHero
+            hero.src = this.srcImg; // lay link anh de load anh
+            hero.style.left = this.left + 'px'; //thuoc tinh di chuyen qua trai
+            hero.style.top = this.top + 'px';// thuoc tinh di chuyen len tren
+        }
+
+        moveLeft() {
+            if (this.left > 0) {
+                this.left = this.left - this.speed; //vi sao tru???
+            }
+        }
+
+        moveRight() {
+            this.left = this.left + this.speed ; // vi sao cong???
+            this.displayHero();
+        }
+
+        moveUp() {
+            if (this.top > 0) {
+                this.top = this.top - this.speed;
+                this.displayHero();
+            }
+        }
+        moveDown() {
+            this.top = this.top + this.speed;
+            this.displayHero();
+        }
+    }
+
+
+</script>
+
+<script>
+//    function moveSelection(evt){
+//        switch (evt.keyCode) {
+//            case 37: leftArrowPress() ; break;
+//            case 39: rightArrowPress() ; break;
+//            case 38: upArrowPress() ; break;
+//            case 40: downArrowPress() ; break;
+//        }
+//    }
+//    function leftArrowPress() {
+//        let t1 = document.getElementById('pikachu');
+//        t1.style.left = parseInt(t1.style.left) - 5 + 'px' ;
+//    }
+//    function rightArrowPress() {
+//        let t1 = document.getElementById('pikachu');
+//        t1.style.right = parseInt(t1.style.right) - 5 + 'px' ;
+//    }
+//    function upArrowPress() {
+//        let t1 = document.getElementById('pikachu');
+//        t1.style.top = parseInt(t1.style.top) - 5 + 'px' ;
+//    }
+//    function downArrowPress() {
+//        let t1 = document.getElementById('pikachu');
+//        t1.style.bottom = parseInt(t1.style.bottom) - 5 + 'px' ;
+//    }
+</script>
+</body>
+</html>
