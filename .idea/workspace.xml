@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="Hieu commit edit git 2">
-      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_manage_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/2020-10-07 09_31_23-Mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/2020-10-07 09_31_33-CongTac_BongDen [E__CodeGym_Module1_JamesModule1_CodeGymDN_Module1_Session_08_OP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_OOP_energy_lamp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_OOP_move_character.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_OOP_move_character.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_OOP_rectangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_OOP_temprature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_mobile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/pic_bulboff.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/pic_bulbon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/pikachu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/thuc_hanh/ht_OOP_1_redo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/thuc_hanh/th_OOP_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/thuc_hanh/th_OOP_circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bob_practicing/Bob_practiccing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bob_practicing/New Picture.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_tap/bt_basic_calculator_redo.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_Variable_Datatype_Operator/bai_tap/bt_basic_calculator_redo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +199,9 @@
       <workItem from="1602079543986" duration="2757000" />
       <workItem from="1602083812554" duration="5697000" />
       <workItem from="1602120092609" duration="897000" />
-      <workItem from="1602121298861" duration="12000" />
+      <workItem from="1602121298861" duration="7868000" />
+      <workItem from="1602142463562" duration="1434000" />
+      <workItem from="1602152917343" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>
