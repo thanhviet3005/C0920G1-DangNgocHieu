@@ -6,16 +6,16 @@
 </head>
 <body>
     <script>
+        let n ;
         let i, j, x ;
-        let t1 ;
         do {
-            t1= parseInt(prompt("Input row number")) ;
-        } while (isNaN(t1)) ;
+            n= parseInt(prompt("Input row number")) ;
+        } while (isNaN(n)) ;
 // Thuat toan o day la chia thanh 2 loai ky tu, mot loai la ky tu trong, mot loai
         // la chu *; roi cho chay 2 vong lap for mot lan, khi chay het vong lap ky tu trong thi chuyen
         // qua ky tu "*"
-        for (i = 1; i <= t1 ; i++){
-            for (x = 1; x <= t1 - i ; x++ ){
+        for (i = 1; i <= n ; i++){
+            for (x = 1; x <= n - i ; x++ ){
                 document.write("&nbsp&nbsp") ;
             }
             for (j = 1 ; j <= i ; j++){
