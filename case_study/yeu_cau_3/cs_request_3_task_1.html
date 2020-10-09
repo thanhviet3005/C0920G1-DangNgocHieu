@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cs_request_3_task_1</title>
+</head>
+<body>
+<script>
+
+// let identifyCus ;
+// let birthCus ;
+// let quantityCus ;
+// let rentDayCus ;
+// let emailCus = prompt("Input your email address, ex: abc@abc.abc") ;
+
+
+
+// checkEmailAddress la check địa chỉ mail có đúng ko, nhập chuỗi vào
+// mail đúng là = có một chữ @ và có 1 dấu chấm đằng sau là đúng.
+// trả về, nếu đúng thì biến toàn cục check̀ = true, sai thì check = false.
+//     function checkEmailAddress(str){
+//     let count1 = 0 ;
+//     let count2= 0 ;
+//     for (let i = 0; i < str.length; i++){
+//         let temp = str.charAt(i) == '@' ; // chu @ o ky tu dau tien hay sau cung la sai;
+//         if(count1 > 1){ break ; }
+//         // co chu @ va tu mot toi 3 dau cham la duoc, co mot space bar o giua dau cham va @
+//         if(temp){
+//             count1 += 1 ;
+//             for (let j = i+2; j < str.length ;j++ ){
+//                 if(str.charAt(j) == '.'){  count2 += 1; }
+//             }
+//         }
+//     }
+//     if (str.charAt(0)!=='@' && str.charAt(str.length-1)!=='@' && count1 == 1 && count2 == 1 ){
+//         return check = 'TRUE' ;
+//     }else { return check = 'FALSE' ; }
+//     }
+//================================================
+    let str = '12345678' ;
+    let count = 0;
+    for (let i = 0; i < str.length ; i++){
+        if(typeof str.charAt(i) !=='number' || str.length !== 8){
+            count += 1 ;
+            break ;
+        }
+    }
+    if (count == 0) {
+        console.log ('true');
+        // return check = 'TRUE' ;
+    }else if (count > 0) {
+        console.log ('false');
+        // return check = 'FALSE' ;
+    }
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
