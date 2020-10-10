@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="Hieu commit edit git 2">
-      <change afterPath="$PROJECT_DIR$/hacker_rank/hacker_rank.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hacker_rank/~$cker_rank.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_3/cs_request_3_task_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_3/cs_request_3_task_1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +205,13 @@
       <workItem from="1602174454037" duration="3824000" />
       <workItem from="1602207399261" duration="11876000" />
       <workItem from="1602224532860" duration="5598000" />
+      <workItem from="1602234210114" duration="1778000" />
+      <workItem from="1602252417628" duration="2429000" />
+      <workItem from="1602255408840" duration="416000" />
+      <workItem from="1602304035724" duration="878000" />
+      <workItem from="1602313277419" duration="4927000" />
+      <workItem from="1602334757908" duration="5211000" />
+      <workItem from="1602346975972" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>

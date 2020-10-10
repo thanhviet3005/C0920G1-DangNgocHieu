@@ -18,13 +18,12 @@
 // checkEmailAddress la check địa chỉ mail có đúng ko, nhập chuỗi vào
 // mail đúng là = có một chữ @ và có 1 dấu chấm đằng sau là đúng.
 // trả về, nếu đúng thì biến toàn cục check̀ = true, sai thì check = false.
-//     function checkEmailAddress(str){
-//     let count1 = 0 ;
-//     let count2= 0 ;
+//     function checkEmailAddress(str, check){
+//     let count1 = 0 ,  count2 = 0 ;
 //     for (let i = 0; i < str.length; i++){
-//         let temp = str.charAt(i) == '@' ; // chu @ o ky tu dau tien hay sau cung la sai;
+//         let temp = str.charAt(i) == '@' ;       // chu @ o ky tu dau tien hay sau cung la sai;
 //         if(count1 > 1){ break ; }
-//         // co chu @ va tu mot toi 3 dau cham la duoc, co mot space bar o giua dau cham va @
+//         // co chu @ va mot dau cham dang sau la duoc, co mot space bar o giua dau cham va @
 //         if(temp){
 //             count1 += 1 ;
 //             for (let j = i+2; j < str.length ;j++ ){
@@ -36,22 +35,93 @@
 //         return check = 'TRUE' ;
 //     }else { return check = 'FALSE' ; }
 //     }
-//================================================
-    let str = '12345678' ;
-    let count = 0;
-    for (let i = 0; i < str.length ; i++){
-        if(typeof str.charAt(i) !=='number' || str.length !== 8){
-            count += 1 ;
-            break ;
+//
+// //==============================================
+// // hàm này check số cmdn có phải là 8 số ko, đều là ký tự từ 0-9 là ok, trả về biến check = true
+// function checkIdentifyNumber(str, check){
+//     let temp = str.length ;
+//     let count = 0 ;
+//     for (let i = 0; i < temp && temp == 8 ; i++){
+//         if(str.charAt(i) % 1 == 0 ){                // chi co number moi chia het cho 1 duoc
+//             count += 1 ;
+//         }
+//     }
+//     console.log(count) ;
+//     if (count == 8) {
+//         console.log ('TRUE');
+//         return check = TRUE ;
+//     }else if (count !== 8) {
+//         console.log ('FALSE');
+//         return check = FALSE ;
+//     }
+// }
+//===============================================================
+// ham check xem so ngay thue, so nguoi thue tu 0-1000 ngay, va la so nguyen duong moi duoc
+//     function checkRentDay(str, check) {
+//         let count = 0;
+//         for (let i = 0; i < str.length && str.length <= 4; i++) { // gioi han so ngay thue la nho hon 1.000 ngay
+//             if (str.charAt(i) % 1 == 0) {
+//                 count += 1;
+//             }
+//         }
+//         if (count == str.length) {
+//             // console.log("true");
+//             return check = true;
+//         } else {
+//             // console.log('false');
+//             return check = false;
+//         }
+//     }
+//===============================================================
+// hàm check ngày tháng năm sinh có đúng định dạng dd/mm/yyyy
+// đúng thì trả về check = true; sai thi check = false
+//     function checkBirthDay(str, check){
+//         let count  = 0;
+//         for (let i = 0; i< str.length && str.length == 10; i++){
+//             if(str.charAt(i)%1 == 0 && str.charAt(2)==='/' && str.charAt(5)==='/') {
+//                 count += 1 ;        // chi khi dung dinh dang thi bien count moi nhay duoc
+//             }
+//         }
+//         if (count == 8) {
+//             return check = true ;
+//         }else {
+//             return check  = false ;
+//         }
+//     }
+//===============================================================
+// hàm check tên, xóa khoảng trắng thừa, viết hoa chữ đầu tiên == check = true;
+// số ký tự trong  tên nhỏ hơn 100 ký tự mới dùng được hàm
+// kết quả trả về là tên chuỗi ban đầu đã được xử lý
+
+    function checkName(str) {
+        let tempName = '';
+        str = str.trim().toLowerCase() // cắt khoảng trắng đầu và cuối chuỗi, chuyển thành chữ thường
+        // console.log(str);
+        for (let i = 0; i < str.length && str.length <= 100; i++) {
+            if (str.charAt(i) === ' ' && str.charAt(i + 1) === ' ') {       // gặp 2 ký tự trống liên tục thì đi tiếp qua ký tự tiếp theo
+                continue;
+            }
+            if (i === 0 || str.charAt(i - 1) === ' ') {                 // gặp 1 ký tự mà trước đó là ký tự trống thì làm
+                tempName += str.charAt(i).toUpperCase();
+                continue;                                          // cần có continue để cho chữ đã viết hoa rồi thì ko thêm vào biến tempName ở dưới nữa
+            }
+            tempName += str.charAt(i);
         }
+        // console.log (str + '   ' + tempName)
+        return str = tempName ;
     }
-    if (count == 0) {
-        console.log ('true');
-        // return check = 'TRUE' ;
-    }else if (count > 0) {
-        console.log ('false');
-        // return check = 'FALSE' ;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
