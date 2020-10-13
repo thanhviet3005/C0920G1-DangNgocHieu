@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cs_request_4_task_1</title>
+</head>
+<body>
+<script>
+//*	Tạo menu gồm có tính năng Add Name Customer và Delete Customer
+//  - Khi người dùng chọn chức năng Add Name Customer thì chương trình hiển
+//      thị yêu cầu người dùng nhập số lượng customer muốn thêm.
+//  - Sau đó sẽ tiến hành cho phép người dùng nhập các thông tin của Customer vào mảng có tên arrNameCustomers
+
+let arrNameCus = new Array() ;               // mang de nhap ten khach hang
+let check = false ;
+while(check === false){
+let choose = prompt('Please input your selection number  \n' +
+    '1. Add name customer \n' +
+    '2. Delete customer \n' +
+    '3. Exit ') ;
+switch (choose) {
+    case '1':                                                      // so '1' la dang chuoi
+        let numberCus = prompt('Input customer quantity') ;         // bien nhap so luong khach muon them
+        let result = '' ;
+        for (let i = 0; i < numberCus; i++){
+            let nameCus = prompt('Input customer name') ;           // nhap ten khach hang
+            arrNameCus.push(nameCus) ;
+        }
+        arrNameCus.sort() ;
+        for (let i = 0; i< arrNameCus.length; i++){
+            result += (i+1) + '. '+ arrNameCus[i] + '\n';           // de bien result la chuoi, làm lợi cho bộ nhớ
+        }
+        // alert(result) ;
+        console.log(arrNameCus) ;
+        break;
+    case '2':
+        let nameDel = prompt('Input customer name') ;
+        let count = 0;
+        for (let i = 0; i< arrNameCus.length; i++ ) {
+            if(arrNameCus[i] === nameDel){
+                arrNameCus.splice(i, 1) ;
+                count+=1;
+            }
+        }
+        if(count===0) {
+            alert("Input wrong name");
+        }
+        let result1 = '' ;
+        arrNameCus.sort() ;
+        for (let i = 0; i< arrNameCus.length; i++){
+            result1 += (i+1) + '. '+ arrNameCus[i] + '\n';           // de bien result la chuoi, làm lợi cho bộ nhớ
+        }
+        // alert(result1) ;
+        console.log(arrNameCus) ;
+        break;
+    case '3': check = true ; break ;
+    default: alert('Input failed') ;    break ;
+}
+}
+// dùng vòng lặp while() là do: cứ mỗi lần lệnh chạy từ trên xuống dưới là sẽ mất hết
+    // những gì đã nhập vào case 1, như vậy sẽ ko làm được case 2. Nên dùng while
+    // là để lựa chọn được case 2.
+
+</script>
+</body>
+</html>

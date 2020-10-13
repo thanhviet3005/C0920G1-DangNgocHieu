@@ -9,6 +9,7 @@
     <mapping directory="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/6.Javascript overview" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/6_Javascript_overview" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/case_study" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wf-hello" vcs="Git" />
   </component>
 </project>

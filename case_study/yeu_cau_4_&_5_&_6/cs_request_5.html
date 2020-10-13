@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cs_request_5</title>
+</head>
+<body>
+<script>
+    //Task 1: Thực hiện các yêu cầu sau:
+    // 1.	Xây dựng function tên displayMainMenu() hiển thị trình đơn chính (main menu) để người dùng
+    //          lựa chọn các chức năng
+    //  + Add New Customer.
+    //  + Display Information Customer.
+    //  + Edit Information Customer.
+    //  + Delete Customer.
+    //  + Exit.
+    // 2.	Khi người dùng chọn Add New Customer từ main menu, chương trình sẽ gọi
+    // hàm addNewCustomer() để thực hiện thêm thông tin của 1 khách hàng với các
+    // thuộc tính đã được mô tả ở yêu cầu 1 vào mảng có tên là arrListCustomers.
+    //     Sau khi thêm mới thành công thì thực hiện back về main menu.
+    //
+    // 3.	Khi người dùng chọn chức năng Display Information Customer từ
+    //          main menu, chương trình sẽ gọi hàm displayCustomers() để hiển thị toàn bộ thông tin của khách hàng.
+    // 4.	Khi người dùng chọn Edit Information Customer từ main menu, chương trình sẽ gọi
+    //          chức năng chỉnh sửa thông tin Customer được xây dựng trong hàm editCustomer(). Sau khi edit thành công thì hiển thị danh sách Customer với nội dung đã được chỉnh sửa.
+    // 5.	Khi người dụng chọn Delete Customer từ main menu, chương trình
+    //          sẽ gọi chức năng xóa thông tin Customer được xây dựng trong hàm deleteCustomer(). Sau khi xóa
+    //          thành công thì hiển thị danh sách Customer với danh sách khách hàng đã được xóa.
+
+        //
+    // let nameCus =  "Thanh Tuấn";                    // 0
+    // let identifyCus =  "25666729";                  // 1
+    // let birthCus =  "20/05/2020";                   // 2
+    // let emailCus =  "xuankhanh2091@gmail.com";      // 3
+    // let addressCus =  "Quảng Ngải";                 // 4
+    // let classCus =  "Gold";                         // 5
+    // let typeCus =  "House";                         // 6
+    // let levelCus =  "Bussiness";                    // 7
+    // let quantityCus =  "2";                         // 8
+    // let rentDayCus =  "10";                         // 9
+    // let saleOffCus = '0' ;                          // 10
+    //==============================
+    //tạo hàm displayMenu
+    let arrListCustomer = [] ;
+
+    function displayMenu(){
+    let choose = prompt('Input your number selection \n ' +
+                        '1. Add new customer \n' +
+                        '2. Display information menu \n' +
+                        '3. Edit information customer \n' +
+                        '4. Delete customer \n' +
+                        '5. Exit') ;
+    switch (choose) {
+        case '1': addNewCustomer();
+            break ;
+        case '2': displayCustomer() ;
+            break ;
+        case '3': editCustomer() ;
+            break ;
+        case '4': deleteCustomer() ;
+            break ;
+        case '5':
+            break ;
+        default: alert ('Wrong input');
+    }
+    }
+    //==============================
+    //tạo hàm addNewCustomer()
+    function addNewCustomer() {
+        let cusInfo = [];
+        let nameCus =  "Nguyen Thanh Tuan";                    // 0
+        let identifyCus =  "25666729";                  // 1
+        let birthCus =  "20/05/2020";                   // 2
+        let emailCus =  "xuankhanh2091@gmail.com";      // 3
+        let addressCus =  "Quảng Ngải";                 // 4
+        let classCus =  "Gold";                         // 5
+        let typeCus =  "House";                         // 6
+        let levelCus =  "Bussiness";                    // 7
+        let quantityCus =  "2";                         // 8
+        let rentDayCus =  "10";                         // 9
+        let saleOffCus = '0' ;                          // 10
+        cusInfo.push(nameCus);
+        cusInfo.push(identifyCus) ;
+        cusInfo.push(birthCus) ;
+        cusInfo.push(emailCus) ;
+        cusInfo.push(addressCus) ;
+        cusInfo.push(classCus) ;
+        cusInfo.push(typeCus) ;
+        cusInfo.push(levelCus) ;
+        cusInfo.push(quantityCus) ;
+        cusInfo.push(rentDayCus) ;
+        cusInfo.push(saleOffCus) ;
+        arrListCustomer.push(cusInfo) ;
+        alert("Successful") ;
+        displayMenu() ;
+    }
+//====================================
+    //2.	Khi người dùng chọn Add New Customer từ main menu, chương trình sẽ
+    //      gọi hàm addNewCustomer() để thực hiện thêm thông tin của 1 khách hàng với các
+    //      thuộc tính đã được mô tả ở yêu cầu 1 vào mảng có tên là arrListCustomers.
+    //  + Sau khi thêm mới thành công thì thực hiện back về main menu.
+    function displayCustomer(){
+        let temp = '' ;
+        for(let i = 0; i < arrListCustomer.length; i++){
+            temp += i + '. ' + arrListCustomer[i][0] + '\n' ;    // temp để lấy check xem nhap co dung hay ko
+        }
+                                                            // alert(temp) ;    // test xem du lieu hien ra co dung ko
+        let chooseDisplay = parseInt(prompt(temp)) ;
+        // chooseDisplay để cho người dùng chọn tên của customer nào muốn xem
+        if (0 <= chooseDisplay && chooseDisplay < arrListCustomer.length){
+        alert("Name = " + arrListCustomer[chooseDisplay][0] + "\n" +
+            "Identify = " + arrListCustomer[chooseDisplay][1] + "\n" +
+             "Birth date = " + arrListCustomer[chooseDisplay][2] + "\n" +
+            "Email = " + arrListCustomer[chooseDisplay][3] + "\n" +
+            "Address = " + arrListCustomer[chooseDisplay][4] + "\n" +
+            "Class customer = " + arrListCustomer[chooseDisplay][5] + "\n" +
+            "Goods type = " + arrListCustomer[chooseDisplay][6] + "\n" +
+            "Level = " + arrListCustomer[chooseDisplay][7] + "\n" +
+            "Quantity = " + arrListCustomer[chooseDisplay][8] + "\n" +
+            "Rent Days = " + arrListCustomer[chooseDisplay][9] + "\n" +
+            "Sale off = " + arrListCustomer[chooseDisplay][10] + "\n"
+        ) ;
+        }else {
+            alert('Wrong input') ;
+        }
+        displayMenu();
+    }
+    //==============================
+    //tạo hàm editCustomer()
+    function editCustomer(){
+        let temp = '' ;
+        for(let i = 0; i < arrListCustomer.length; i++){
+            temp += i + '. Name ' + arrListCustomer[i][0] + '\n' ;    // temp để lấy check xem nhap co dung hay ko
+        }
+        // alert(temp) ;                                            // test xem du lieu hien ra co dung ko
+        let chooseDisplay = parseInt(prompt(temp)) ;                // chooseDisplay để cho người dùng chọn tên của customer nào muốn sửa
+        let chooseEdit = parseInt(prompt("CHOOSE NUMBER THAT YOU WANT TO EDIT " +'\n'+
+            "1. Name = " + arrListCustomer[chooseDisplay][0] + "\n" +
+            "2. Identify number = " + arrListCustomer[chooseDisplay][1] + "\n" +
+            "3. Birth date = " + arrListCustomer[chooseDisplay][2] + "\n" +
+            "4. Email = " + arrListCustomer[chooseDisplay][3] + "\n" +
+            "5. Address = " + arrListCustomer[chooseDisplay][4] + "\n" +
+            "6. Class customer = " + arrListCustomer[chooseDisplay][5] + "\n" +
+            "7. Goods type = " + arrListCustomer[chooseDisplay][6] + "\n" +
+            "8. Level = " + arrListCustomer[chooseDisplay][7] + "\n" +
+            "9. Quantity = " + arrListCustomer[chooseDisplay][8] + "\n" +
+            "10. Rent Days = " + arrListCustomer[chooseDisplay][9] + "\n" +
+            "11. Sale off = " + arrListCustomer[chooseDisplay][10] + "\n"
+        ) ) ;
+        // chooseEdit là để người dùng chọn thuộc tính muốn sửa.
+        switch (chooseEdit) {
+            case 1: arrListCustomer[chooseDisplay][0] = prompt("Input new name") ;  break ;
+            case 2: arrListCustomer[chooseDisplay][1] = prompt('Input new identify number') ; break ;
+            case 3: arrListCustomer[chooseDisplay][2] = prompt('Input new birth date') ; break ;
+            case 4: arrListCustomer[chooseDisplay][3] = prompt('Input new email') ; break ;
+            case 5: arrListCustomer[chooseDisplay][4] = prompt('Input new address') ; break ;
+            case 6: arrListCustomer[chooseDisplay][5] = prompt('Input new class customer') ; break ;
+            case 7: arrListCustomer[chooseDisplay][6] = prompt('Input new goods type') ; break ;
+            case 8: arrListCustomer[chooseDisplay][7] = prompt('Input new level') ; break;
+            case 9: arrListCustomer[chooseDisplay][8] = prompt('Input new quantity') ; break ;
+            case 10: arrListCustomer[chooseDisplay][9] = prompt('Input new rent days') ; break ;
+            case 11: arrListCustomer[chooseDisplay][10] = prompt('Input new sale off') ; break ;
+            default: alert('Wrong input') ; break ;
+        }
+        displayMenu();
+    }
+    //==============================
+    //tạo hàm deleteCustomer()
+    function deleteCustomer() {
+        let temp = '' ;
+        for(let i = 0; i < arrListCustomer.length; i++){
+            temp += i + '. Name ' + arrListCustomer[i][0] + '\n' ;    // temp để lấy check xem nhap co dung hay ko
+        }
+        // alert(temp) ;                                            // test xem du lieu hien ra co dung ko
+        let chooseDelete = parseInt(prompt('Choose number to delete' + '\n'+ temp)) ;
+        let reCheck = prompt('Are you sure' + '\n' +
+                            '1. Yes' + '\n' +
+                            '2. No' +'\n' +
+                            '(Input number 1 or 2)') ;
+        // hiện danh sách người dùng muốn xóa
+        if (reCheck === '1') {
+            arrListCustomer.splice(chooseDelete, 1) ;
+            alert('Deleted') ;
+        }else {
+            alert ('Cancel') ;
+        }
+        displayMenu() ;
+    }
+    //==============================
+    displayMenu() ;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cs_request_6_task2</title>
+    <script type="text/javascript" src="cs_request_6_task2_JS.js"></script>
+</head>
+<body>
+<script>
+    let listEmployee = [] ;     // tao mang chung luu tru cac thong tin nhan vien
+    function displayEmployeeMenu(){
+        let choose= prompt('Input your number selection \n ' +
+            '1. Add new Employees \n' +
+            '2. Display information Employees \n' +
+            '3. Salary of Employees \n' +
+            '4. Exit \n'        ) ;
+        switch (choose){
+            case '1': addNewEmployee() ;
+                break ;
+            case '2': displayEmployeeInf() ;
+                break ;
+            case '3': displaySalary() ;
+                break ;
+            case '4':
+                break ;
+        }
+    }
+
+    function displaySalary() {
+        let temp ='' ;
+        for (let i = 0; i < listEmployee.length; i++){      // chon nguoi muon xem thong tin
+            temp += i + '. = ' + listEmployee[i].getNameE() + '\n';
+        }
+        let chooseDisplay= parseInt(prompt(temp)) ;
+        alert('Employee Information \n' +
+            '1. Name = ' + listEmployee[chooseDisplay].getNameE() +'\n' +
+            '2. Salary = ' + listEmployee[chooseDisplay].getSalaryE() +'\n'
+            ) ;
+        displayEmployeeMenu() ;
+    }
+
+
+    function displayEmployeeInf() {
+        let temp ='' ;
+        for (let i = 0; i < listEmployee.length; i++){      // chon nguoi muon xem thong tin
+            temp += i + '. = ' + listEmployee[i].getNameE() + '\n';
+        }
+        let chooseDisplay= parseInt(prompt(temp)) ;
+        alert ('Employee Information \n' +
+            '1. Name = ' + listEmployee[chooseDisplay].getNameE() +'\n' +
+            '2. Birth Date = ' + listEmployee[chooseDisplay].getBirthDateE() +'\n' +
+            '3. Identify number = ' + listEmployee[chooseDisplay].getIdentifyE() +'\n' +
+            '4. Phone number = ' + listEmployee[chooseDisplay].getPhoneE() +'\n' +
+            '5. Email = ' + listEmployee[chooseDisplay].getEmailE() + '\n' +
+            '6. Rank = ' + listEmployee[chooseDisplay].getRankE() + '\n' +
+            '7. Position = ' + listEmployee[chooseDisplay].getPositionE() + '\n'
+                ) ;
+
+        displayEmployeeMenu() ;
+    }
+
+    function addNewEmployee(){
+
+        let name = 'Tran Thanh Tung' ;  //0
+        let birthDate = '23/12/2000' ;      //1
+        let identify = '12345678' ;     //2
+        let phone = '987654321';        //3
+        let email = 'abc@abc.com' ;     //4
+        let rank = 'college' ;          //5
+        let position = 'Sale' ;         //6
+
+        let emp = new Employee() ;
+        emp.setNameE(name) ;
+        emp.setBirthDateE(birthDate) ;
+        emp.setIdentifyE(identify) ;
+        emp.setPhoneE(phone) ;
+        emp.setEmailE(email) ;
+        emp.setRankE(rank) ;
+        emp.setPositionE(position) ;
+
+        listEmployee.push(emp) ;
+        alert('Sucessful') ;
+
+        displayEmployeeMenu() ;
+    }
+
+
+
+    displayEmployeeMenu() ;
+</script>
+</body>
+</html>

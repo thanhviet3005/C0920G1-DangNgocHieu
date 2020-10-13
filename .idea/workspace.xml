@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd384d74-fac9-4e3d-abc7-f97d671d8c39" name="Default Changelist" comment="Hieu commit edit git 2">
+      <change afterPath="$PROJECT_DIR$/13_Function_In_JS/bai_tap/bt_tictactoe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_OOP_adam_&amp;_eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_OOP_move_character_demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_&amp;_15_Object_&amp;_Class/bai_tap/bt_OOP_work_with_mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/GamePuzz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_conditional_statements_2/bai_tap/goodFastCheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_acc_name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_CSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_1/cs_task_1_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_2/cs_request2_task_1_2_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_3/cs_request_3_task_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_4_&amp;_5_&amp;_6/cs_request_3_task_1_and_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_4_&amp;_5_&amp;_6/cs_request_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_4_&amp;_5_&amp;_6/cs_request_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_4_&amp;_5_&amp;_6/cs_request_6_JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_4_&amp;_5_&amp;_6/cs_request_6_task2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/yeu_cau_4_&amp;_5_&amp;_6/cs_request_6_task2_JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.HTML_form_&amp;_table/bai tap/bt_signup_simple_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bob_practicing/Bob_practiccing.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bob_practicing/Bob_practiccing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case_study/yeu_cau_3/cs_request_3_task_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yeu_cau_3/cs_request_3_task_1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +35,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/case_study" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -211,7 +231,18 @@
       <workItem from="1602304035724" duration="878000" />
       <workItem from="1602313277419" duration="4927000" />
       <workItem from="1602334757908" duration="5211000" />
-      <workItem from="1602346975972" duration="19000" />
+      <workItem from="1602346975972" duration="1845000" />
+      <workItem from="1602381038734" duration="10016000" />
+      <workItem from="1602402954597" duration="3123000" />
+      <workItem from="1602419039858" duration="8630000" />
+      <workItem from="1602434321165" duration="535000" />
+      <workItem from="1602466074340" duration="1487000" />
+      <workItem from="1602468175906" duration="7252000" />
+      <workItem from="1602475778548" duration="2370000" />
+      <workItem from="1602484137450" duration="11355000" />
+      <workItem from="1602498435277" duration="62000" />
+      <workItem from="1602519056291" duration="4029000" />
+      <workItem from="1602551933337" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="Hieu commit edit git 2">
       <created>1600942072223</created>
@@ -232,6 +263,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
